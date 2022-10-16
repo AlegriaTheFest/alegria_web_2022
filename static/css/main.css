@@ -1,0 +1,173 @@
+:root {
+    --beige: #f8dede;
+    --black: #3d3d3d;
+    --u_bg: #FFF8EF;
+    --u_red: #842703;
+}
+
+
+/* defaults & common css classes */
+.bg-beige {
+    background-color: var(--beige);
+}
+
+.main-bg {
+    background-color: var(--u_bg);
+}
+
+.navbar_links {
+    color: var(--beige);
+}
+
+.filter_btn {
+    background-color: transparent;
+    border: 2px solid var(--brown);
+    border-radius: 10px;
+    color: var(--brown);
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: var(--beige);
+    text-decoration: none;
+    margin: 0;
+    transition: all .3s ease;
+}
+
+a:hover {
+    color: var(--beige);
+}
+
+li {
+    list-style: none;
+}
+
+.go_back_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25rem 0.6rem;
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    font-size: 0.9rem;
+    color: var(--black);
+    font-weight: 600;
+    background-color: transparent;
+    transition: all .5s ease-out;
+}
+
+.go_back_btn:hover {
+    border: 2px solid var(--black);
+}
+
+.input_value {
+    border: 1px solid var(--black);
+    padding: 0.2rem 0.4rem;
+    margin: 0.2rem 0;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    transition: all 0.3s ease-out;
+}
+
+.input_value:focus {
+    border: 2px solid #131fcf;
+}
+
+input[type='file']:focus {
+    border: none;
+}
+
+/* nav */
+
+.nav-links {
+    color: var(--beige);
+}
+
+.nav-button {
+    padding: 0.4rem 0.6rem;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid var(--beige);
+    color: var(--beige);
+    transition: all .2s ease-in;
+}
+
+.nav-button:hover {
+    transform: scale(0.95);
+}
+
+.nav-menu-btn {
+    width: auto;
+    padding: 0.4rem 0.6rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--beige);
+    transition: all .2s ease-in;
+    display: none !important;
+}
+
+.user-box {
+    width: 3rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* event detail page css */
+
+/* event and merchandise page */
+#admin-events {
+    margin-bottom: 3vh;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-img-top {
+    height: 40vh;
+    margin: 3%;
+    width: 94%;
+    box-shadow: inset 0 0 7px #000000;
+    border-radius: 10px;
+}
+
+.des {
+    font-size: 14px;
+    color: #777674;
+}
+
+
+@media only screen and (max-width:900px) {
+    .nav-menu-btn {
+        display: block !important;
+    }
+
+    #desktop-nav {
+        display: none !important;
+    }
+}
+
+/* polls */
+.buttons a {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+/* poll details */
+@media screen and (min-device-width: 900px) {
+    .card-body {
+        position: absolute;
+        right: 5%;
+    }
+}

@@ -1,0 +1,636 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<script src="static/js/loading.js"></script>
+
+
+<style>
+    .schedule {
+        border-left: 2px solid black;
+        padding-left: 50px;
+    }
+
+    .problem-statement {
+        background-color: #631909;
+        width: 100%;
+        padding: 30px;
+        border-radius: 50px 0;
+    }
+
+    .ps-img {
+        height: 100%;
+    }
+
+    .ps-content {
+        width: 70%;
+        margin: auto;
+    }
+
+    .reverse {
+        display: flex;
+    }
+
+    .reverse:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    @media screen and (max-width:600px) {
+        .problem-statement {
+            width: 90%;
+            display: block;
+        }
+
+        .ps-img {
+            width: 100%;
+        }
+
+        .ps-content {
+            width: 100%;
+        }
+
+        .schedule {
+            border: none;
+            padding-left: 15px;
+        }
+    }
+</style>
+ 
+
+    <!-- bootstrap -->
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="static/css/user.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/Buttons.css">
+
+    <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
+
+    <!-- js -->
+    <script defer="" src="static/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="gtag/js?id=G-1NGQRMP43J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1NGQRMP43J');
+    </script>
+
+    <title>
+Alegria 2022 | Hackathon 2022
+</title>
+</head>
+
+
+
+<body class="loader-body">
+    <div class="loading-bg">
+    </div>
+    <div class="loader-div d-flex flex-column justify-content-center align-items-center">
+        <!-- <div class="loader d-flex flex-column align-items-center">
+            <video width="400" height="500" loop autoplay>
+                <source src="../static/files/loader.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div> -->
+        <div class="d-flex flex-column align-items-center">
+            <img src="static/images/AlegriaLogo.png" alt="alegria-logo" id="loader-logo" height="150px">
+            <div class="loader d-flex align-items-center justify-content-center px-3 sec-font fs-1 my-2">
+                <p id="loader-l">L</p>
+                <p id="loader-o">o</p>
+                <p id="loader-a">a</p>
+                <p id="loader-d">d</p>
+                <p id="loader-i">i</p>
+                <p id="loader-n">n</p>
+                <p id="loader-g">g</p>
+            </div>
+        </div>
+    </div>
+
+
+    <body class="min-vh-100">
+        <nav class="navbar navbar-main navbar-expand-lg navbar-light p-1 position-relative stroke">
+            <div class="container-fluid">
+                <a class="p-0" href="index-1.htm">
+                    <img src="static/images/AlegriaLogo.png" alt="alegria logo" class="alegria-logo">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-white" width="32px" height="32px" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="ms-3 navbar-nav me-auto mt-1 mb-2 mb-lg-0 sec-font fw-bold gy-3">
+                        <li class="nav-item">
+                            <a href="index-1.htm" class='navbar_links'>Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Events</a>
+                            <ul class="dropdown-menu" style="background-color: #681b0aec !important;" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/informals.html">Informals</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/fine-arts.html">Fine Arts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/performing-arts.html">Performing
+                                        Arts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/gaming.html">Gaming</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/sports.html">Sports</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/literary-arts.html">Literary
+                                        Arts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/technical-events.html">Technical
+                                        Events</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/technical-workshop.html">Technical
+                                        Workshops</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/management.html">Management
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/index.htm">All
+                                        Events
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Merchandise</a>
+                            <ul class="dropdown-menu" style="background-color: #681b0aec !important;" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="merchandise/Tshirts.html">Tshirts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="merchandise/Badges.html">Badges</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="announcements.html?filter=None" class='navbar_links'>Announcements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index-1.htm#artists" class='navbar_links'>Artists</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                            <ul class="dropdown-menu border-0" style="background-color: #681b0aec;" aria-labelledby="dropdownMenuButton2">
+                                <li>
+                                    <a href="about-us.html" class="dropdown-item navbar_links">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="app-download.html" class='dropdown-item navbar_links'>
+                                        Alegria App 2022
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="hackathon.html" class="dropdown-item navbar_links">Hackathon
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="polls.html" class="dropdown-item navbar_links">Polls</a>
+                                </li>
+                                <li>
+                                    <a href="user/quiz.html" class="dropdown-item navbar_links">Quiz</a>
+                                </li>
+                                <li>
+                                    <a href="https://pillaialegria.wordpress.com/" target="_blank" rel="noopener noreferrer" class="dropdown-item navbar_links">Blogs</a>
+                                </li>
+                                <li>
+                                    <a href="EBrochure2022.pdf" class="dropdown-item navbar_links">EBrochure
+                                        2022</a>
+                                </li>
+                                <li>
+                                    <a href="sponsors.html" class="dropdown-item navbar_links">Sponsors</a>
+                                </li>
+                                <li>
+                                    <a href="developers.html" class="dropdown-item navbar_links">Developers</a>
+                                </li>
+                                <li>
+                                    <a href="event-heads.html" class="dropdown-item navbar_links">Event Heads </a>
+                                </li>
+                                <li>
+                                    <a href="privacypolicy.html" class="dropdown-item navbar_links">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="publictermsofservice.html" class="dropdown-item navbar_links">Terms and
+                                        Conditions</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <button class="up-button">
+                        <a href="user-login.html" class="d-flex justify-content-center align-items-center rounded-3 text-red bg-white fs-7 px-4 py-2 me-2 main-font">
+                            <p class="my-0 me-2">
+                                Sign In
+                            </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewbox="0 0 24 24" stroke="currentColor" class="text-beige ms-2" width="24px" height="24px">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z"></path>
+                            </svg>
+                        </a>
+                    </button>
+                    
+
+                    
+
+                    
+                </div>
+            </div>
+        </nav>
+
+
+        
+<div class="d-flex flex-column justify-content-center min-w-100 min-vh-100 bg-teal bg-cover overflow-hidden">
+    <div class="row m-2 py-2">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-6 col-sm-12 my-4">
+            <h1 class="main-font text-red">Hackathon 2022</h1>
+            <p class="fs-7 lh-base text-black my-1 mb-0 sec-font">
+                Participants have to work on a given problem with their team to come up with the best solution they can.
+                The most feasible solution will be awarded.
+            </p>
+        </div>
+        <div class="col-lg-3 col-sm-12 my-4 d-flex justify-content-center">
+            <img src="static/images/hackathon/hackathon.png" alt='Hackathon logo' width="200px" height="200px">
+        </div>
+    </div>
+    <div class="row m-2 py-2">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5 col-sm-12 sec-font text-red">
+            <p class="fs-5 fw-bolder">₹ 200.00 (Per Team)</p>
+            <p class="fs-7 mb-0">Criteria: Semi-Open</p>
+            <p class="fs-7 mb-0">Mode: ONLINE</p>
+            <p class="fs-7">Number of Participants: 2-4</p>
+            <p>
+                <a data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1" class="main-font text-red">
+                    Prizes +
+                </a>
+            </p>
+            <div class="collapse" id="collapse1">
+                <div class="card collapse-card">
+                    <li class="fs-7 mb-1">1st prize : Rs.3000 + Certificates</li>
+                    <li class="fs-7 mb-1">2nd prize :Rs.1500 + Certificates</li>
+                    <li class="fs-7 mb-1">3rd prize:
+                        Certificates</li>
+                </div>
+            </div>
+            <p>
+                <a data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2" class="main-font text-red">
+                    Rules +
+                </a>
+            </p>
+            <div class="collapse" id="collapse2">
+                <div class="card collapse-card">
+                    <p class="fs-7 mb-1">
+                        Round 1 (Idea Submission):
+                        <li class="fs-7 mb-1">1. Idea must be submitted by Team Leader Only.</li>
+                        <li class="fs-7 mb-1">2. The team must submit the Idea before the last date.</li>
+                        <li class="fs-7 mb-1">3. Upload the Idea Submission File in the prescribed format.</li>
+                        <li class="fs-7 mb-1">4. Format for Idea file:</li>
+                        <li class="fs-7 mb-1">-- PSID_TeamName_LeaderName</li>
+                        <li class="fs-7 mb-1">-- For Eg. PS01_Enigma_AmitNaik</li>
+                        <li class="fs-7 mb-1">5. A team can submit idea in only one problem statement only. Multiple
+                            idea submission in this hackathon is not allowed.</li>
+                        <li class="fs-7 mb-1">6. For AI/ Machine learning, participants can either create or use any
+                            relevant dataset.</li>
+                    </p>
+                </div>
+            </div>
+            <a href='https://bit.ly/3e1QFnV' target="_blank" rel="noopener noreferrer" class="text-red" style="text-decoration: underline;">Sample Idea Format</a>
+
+            <button class="w-100 d-flex align-items-center justify-content-center border-0 bg-brown my-3 mb-2 fs-6 py-1 px-3 rounded-3" style="max-width: 200px;">
+                <a href='https://forms.gle/utWwxyJ7aX9dvQx98' target="_blank" rel="noopener noreferrer" class="text-beige w-100">
+                    Participate
+                </a>
+            </button>
+        </div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center schedule">
+            <p class="text-red main-font fs-4 mb-0">Round 1 </p>
+            <p class="fs-7 mb-1 text-black mt-0 main-font">20th December 2021- 31st January 2022</p>
+            <p class="sec-font fs-7">
+                Idea Submission Round
+            </p>
+
+            <p class="text-red main-font fs-4 mb-0">Round 2 </p>
+            <p class="fs-7 mb-1 text-black mt-0 main-font">Dates will be declared soon</p>
+            <p class="sec-font fs-7">
+                Prototype & Demo Video Submission
+            </p>
+
+            <p class="text-red main-font fs-4 mb-0">Final Round</p>
+            <p class="fs-7 mb-1 text-black mt-0 main-font">During Alegria - The Festival Of Joy</p>
+            <p class="sec-font fs-7">
+                Final presentation round (online)
+            </p>
+
+        </div>
+    </div>
+    <div class="row m-2 py-2">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10 col-md-10 col-sm-10">
+            <div class="row my-2">
+                <h4 class="fs-5 sec-font text-red">Problem Statement Domains:</h4>
+            </div>
+            <div class="row my-1">
+                <div class="domain col text-center">
+                    <img src="static/images/hackathon/ai-icon-vector-23097736.jpg">
+                    <h4 class="fs-6 mt-2">Artificial Intelligence</h4>
+                </div>
+                <div class="domain col text-center">
+                    <img src="static/images/hackathon/iot-vector-21463975.jpg">
+                    <h4 class="fs-6 mt-2">IOT</h4>
+                </div>
+                <div class="domain col text-center">
+                    <img src="static/images/hackathon/virtual-reality-icon.jpg">
+                    <h4 class="fs-6 mt-2">AR/VR</h4>
+                </div>
+                <div class="domain col text-center">
+                    <img src="static/images/hackathon/web-app.png">
+                    <h4 class="fs-6 mt-2">App (Web/Mobile)</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row d-flex flex-column justify-content-center align-items-center">
+        <h4 class="main-font fs-4 text-center">Problem Statements</h4>
+        <div class="col-10 d-flex flex-column align-items-center g-2">
+            
+            <div class="problem-statement text-beige reverse mb-3">
+                <div class="ps-img">
+                    <img src="static/images/hackathon/ps1.png" alt="problem-statement" style="width:90%;border-radius: 50px 0;margin:auto;">
+                </div>
+                <div class="ps-content">
+                    <h5 class="fs-6 text-teal"><b>PS01</b></h5>
+                    <h3 class="fs-5 text-beige m-0 p-0">Sentiment Analysis of Youtube Channel</h3>
+                    <p class="fs-7 text-beige"><b>Artificial Intelligence / Machine Learning(AI /ML)</b></p>
+                    <p class="fs-7 text-teal">Implement a sentiment analysis model that helps identify the sentiments of the comments on an entire youtube channel and a specific video. Additionally, analysis of multilingual or comments in different languages would be appreciated.</p>
+                </div>
+            </div>
+            
+            <div class="problem-statement text-beige reverse mb-3">
+                <div class="ps-img">
+                    <img src="static/images/hackathon/ps2.png" alt="problem-statement" style="width:90%;border-radius: 50px 0;margin:auto;">
+                </div>
+                <div class="ps-content">
+                    <h5 class="fs-6 text-teal"><b>PS02</b></h5>
+                    <h3 class="fs-5 text-beige m-0 p-0">Realistic Face Images from Sketches of Humans and Anime Characters</h3>
+                    <p class="fs-7 text-beige"><b>Artificial Intelligence / Machine Learning(AI /ML)</b></p>
+                    <p class="fs-7 text-teal">The system should be able to take in sketches of humans and anime characters and generate photo-realistic like face images for them.</p>
+                </div>
+            </div>
+            
+            <div class="problem-statement text-beige reverse mb-3">
+                <div class="ps-img">
+                    <img src="static/images/hackathon/ps3.png" alt="problem-statement" style="width:90%;border-radius: 50px 0;margin:auto;">
+                </div>
+                <div class="ps-content">
+                    <h5 class="fs-6 text-teal"><b>PS03</b></h5>
+                    <h3 class="fs-5 text-beige m-0 p-0"> Domain based Resume Parsing and Ranking Policy</h3>
+                    <p class="fs-7 text-beige"><b>Artificial Intelligence / Machine Learning(AI /ML)</b></p>
+                    <p class="fs-7 text-teal">Make the hiring process faster and more efficient with a smart AI system that can parse thousands of resumes (resume format - .doc, .docx, .pdf, etc.), provide a summary and rank the individuals based on their skill sets and job requirements.</p>
+                </div>
+            </div>
+            
+            <div class="problem-statement text-beige reverse mb-3">
+                <div class="ps-img">
+                    <img src="static/images/hackathon/ps4.png" alt="problem-statement" style="width:90%;border-radius: 50px 0;margin:auto;">
+                </div>
+                <div class="ps-content">
+                    <h5 class="fs-6 text-teal"><b>PS04</b></h5>
+                    <h3 class="fs-5 text-beige m-0 p-0">IoT based solutions for road maintenance and incident reporting</h3>
+                    <p class="fs-7 text-beige"><b>Internet of Things (IoT)</b></p>
+                    <p class="fs-7 text-teal">Monitoring of the roads for maintenance (like repairing of potholes, lane marking, bridge maintenance, grass cutting, maintenance of pavements) and reporting of emergency incidents like accidents or bridge washout, unexpected landslide abruptly cutting a road) through video surveillance or sensors making a network of devices to help solve the problem.</p>
+                </div>
+            </div>
+            
+            <div class="problem-statement text-beige reverse mb-3">
+                <div class="ps-img">
+                    <img src="static/images/hackathon/ps5.png" alt="problem-statement" style="width:90%;border-radius: 50px 0;margin:auto;">
+                </div>
+                <div class="ps-content">
+                    <h5 class="fs-6 text-teal"><b>PS05</b></h5>
+                    <h3 class="fs-5 text-beige m-0 p-0">Empower farmers with IoT devices(1)</h3>
+                    <p class="fs-7 text-beige"><b>Internet of Things (IoT)</b></p>
+                    <p class="fs-7 text-teal">Build a platform to help the farmers to make decisions to obtain good crop yield. The data from sensors can be utilised for management of resources such as fertilisers, pesticides, water and electricity.</p>
+                </div>
+            </div>
+            
+            <div class="problem-statement text-beige reverse mb-3">
+                <div class="ps-img">
+                    <img src="static/images/hackathon/ps6.png" alt="problem-statement" style="width:90%;border-radius: 50px 0;margin:auto;">
+                </div>
+                <div class="ps-content">
+                    <h5 class="fs-6 text-teal"><b>PS06</b></h5>
+                    <h3 class="fs-5 text-beige m-0 p-0">Empower farmers with IoT devices(2)</h3>
+                    <p class="fs-7 text-beige"><b>Internet of Things (IoT)</b></p>
+                    <p class="fs-7 text-teal">Retail Store Management using IoT based consumer behaviour analysis: With the help of sensors, video surveillance and a network of devices connected to the internet; the data of consumer behaviour with the products on display can be monitored and the store layout can be enhanced for improved sales and consumer convenience.</p>
+                </div>
+            </div>
+            
+            <div class="problem-statement text-beige reverse mb-3">
+                <div class="ps-img">
+                    <img src="static/images/hackathon/ps7.png" alt="problem-statement" style="width:90%;border-radius: 50px 0;margin:auto;">
+                </div>
+                <div class="ps-content">
+                    <h5 class="fs-6 text-teal"><b>PS07</b></h5>
+                    <h3 class="fs-5 text-beige m-0 p-0">Using AR/VR to transform educational campus experience</h3>
+                    <p class="fs-7 text-beige"><b>Augmented Reality /Virtual Reality (AR /VR)</b></p>
+                    <p class="fs-7 text-teal">Develop an App that provides the real-life experience of an educational campus with the help of AR/VR. The App should provide an AR/VR experience of different education campuses and factors related to it. For example To reflect the engineering campus experience the app should show various aspects of the engineering campus like labs, classrooms, etc and so for another educational field.</p>
+                </div>
+            </div>
+            
+            <div class="problem-statement text-beige reverse mb-3">
+                <div class="ps-img">
+                    <img src="static/images/hackathon/ps8.png" alt="problem-statement" style="width:90%;border-radius: 50px 0;margin:auto;">
+                </div>
+                <div class="ps-content">
+                    <h5 class="fs-6 text-teal"><b>PS08</b></h5>
+                    <h3 class="fs-5 text-beige m-0 p-0">Using AR/VR to transform library services and assist in resource discovery</h3>
+                    <p class="fs-7 text-beige"><b>Augmented Reality /Virtual Reality (AR /VR)</b></p>
+                    <p class="fs-7 text-teal">Accessing Library Services and discovering books related to various fields is a bit difficult when a person is new to the environment. To develop an AR/VR model for a library that provides an overview of the various services provided by the library and provides the details regarding the types of books available in a library. The AR/VR should assist the user in discovering the particular type of book and the place where it is kept.The VR must be efficient and accurate for finding the book source.</p>
+                </div>
+            </div>
+            
+            <div class="problem-statement text-beige reverse mb-3">
+                <div class="ps-img">
+                    <img src="static/images/hackathon/ps9.png" alt="problem-statement" style="width:90%;border-radius: 50px 0;margin:auto;">
+                </div>
+                <div class="ps-content">
+                    <h5 class="fs-6 text-teal"><b>PS09</b></h5>
+                    <h3 class="fs-5 text-beige m-0 p-0">App that helps college students find internships/work</h3>
+                    <p class="fs-7 text-beige"><b>App(Web/Mobile)</b></p>
+                    <p class="fs-7 text-teal">Build a mobile application that can suggest college students with internship and work opportunities as per their defined skills and interests. The app should also act as a bridge for students and recruiters where students can apply for the internship/work and get recruited.</p>
+                </div>
+            </div>
+            
+            <div class="problem-statement text-beige reverse mb-3">
+                <div class="ps-img">
+                    <img src="static/images/hackathon/ps10.png" alt="problem-statement" style="width:90%;border-radius: 50px 0;margin:auto;">
+                </div>
+                <div class="ps-content">
+                    <h5 class="fs-6 text-teal"><b>PS10</b></h5>
+                    <h3 class="fs-5 text-beige m-0 p-0">Management System for Old Age Home/NGO</h3>
+                    <p class="fs-7 text-beige"><b>App(Web/Mobile)</b></p>
+                    <p class="fs-7 text-teal">To have a management system that aims to replace the traditional record keeping logbooks. The system will be able to track and keep records for categories like health, personal information,  food, and other necessary information. The system should have a clean user interface, easy to use with an easily searchable interface.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+        <!-- footer -->
+        <footer class="d-flex flex-column px-2 overflow-hidden u-text-beige" style="background-color: #272626;">
+            <div class="row d-flex justify-content-center g-4 p-4 pt-5">
+                <div class="col-lg-3 col-sm-6">
+                    <p class="footer_link">Here's how you can reach us</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.6693193422207!2d73.12548141390256!3d18.990206059600766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e866de88667f%3A0xc1c5d5badc610f5f!2sPillai%20College%20of%20Engineering%2C%20New%20Panvel!5e0!3m2!1sen!2sin!4v1639657181713!5m2!1sen!2sin" width="220" height="150" style="border:0;" allowfullscreen="true" loading="lazy" class="rounded-3"></iframe>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <li>
+                        <a href="events/fine-arts.html" class="footer_link mb-1">
+                            Fine Arts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/gaming.html" class="footer_link mb-1">
+                            Gaming
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/informals.html" class="footer_link mb-1">
+                            Informals
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/literary-arts.html" class="footer_link mb-1">
+                            Literary Arts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/management.html" class="footer_link mb-1">
+                            Management
+                        </a>
+                    </li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <li>
+                        <a href="event/technical-events/index.htm" class="footer_link mb-1">
+                            Technical Events
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/technical-workshop.html" class="footer_link mb-1">
+                            Technical Workshops
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/performing-arts.html" class="footer_link mb-1">
+                            Performing Arts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/sports.html" class="footer_link mb-1">
+                            Sports
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/special-events.html" class="footer_link mb-1">
+                            Special Events
+                        </a>
+                    </li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <li>
+                        <a href="index-1.htm" class="footer_link mb-1">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="user-login.html" class="footer_link mb-1">
+                            Login
+                        </a>
+                    </li>
+                    <li>
+                        <a href="hackathon.html" class="footer_link mb-1">
+                            Hackathon
+                        </a>
+                    </li>
+                    <li>
+                        <a href="merchandise/Tshirts.html" class="footer_link mb-1">
+                            Merchandise Tshirts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="developers.html" class="footer_link mb-1">
+                            Developers
+                        </a>
+                    </li>
+                    <li class="my-1">
+                        <a href="https://play.google.com/store/apps/details?id=com.mes.alegria" target="_blank" rel="noopener noreferrer" class="px-3 py-1 d-flex align-items-center rounded-3" style="background-color: black;width: 60%;height: 60%;">
+                            <img src="static/images/icons/playstore.png" alt="playstore icon" class="me-1">
+                            <p class="sec-font mb-0" style="font-size: 0.7rem;">
+                                <span>
+                                    Get It On
+                                </span>
+                                <br>
+                                <span>
+                                    Google Play
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                </div>
+            </div>
+            <div class="row g-2 py-2" style="background-color: #242121;">
+                <div class="col-md-4 col-sm-12">
+                    <p class="footer_link mb-1 text-center">Copyright 2022 Alegria</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="https://www.instagram.com/pillaisalegria/" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                            <i class="fab fa-instagram fs-5"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCfqP3NEaaXPsgHn8QX3qilw" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                            <i class="fab fa-youtube fs-5"></i>
+                        </a>
+                        <a href="https://www.facebook.com/pillaisalegria" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                            <i class="fab fa-facebook-square fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <p class="footer_link mb-1 text-center">Powered by Alegria</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+    
+
+</body></html>

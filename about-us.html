@@ -1,0 +1,1124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<script src="static/js/loading.js"></script>
+
+
+<style>
+  .aboutus-content {
+    height: auto;
+    width: 75%;
+    margin-bottom: 3vh;
+    /* background-color: rgb(248, 219, 180); */
+    border: 8px double #842703;
+    border-radius: 6px;
+  }
+
+  #hexGrid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 15px;
+    list-style-type: none;
+    margin-top: 2vh;
+  }
+
+  .hex {
+    position: relative;
+    visibility: hidden;
+    outline: 1px solid transparent;
+
+    /* fix for jagged edges in FF on hover transition */
+  }
+
+  .hex::after {
+    content: '';
+    display: block;
+    padding-bottom: 86.602%;
+    /* =  100 / tan(60) * 1.5 */
+  }
+
+  .hexIn {
+    position: absolute;
+    width: 96%;
+    padding-bottom: 110.851%;
+    /* =  width / sin(60) */
+    margin: 0 2%;
+    overflow: hidden;
+    visibility: hidden;
+    outline: 1px solid transparent;
+    /* fix for jagged edges in FF on hover transition */
+    -webkit-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+    -ms-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+    transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+  }
+
+  .hexIn * {
+    position: absolute;
+    visibility: visible;
+    outline: 1px solid transparent;
+    /* fix for jagged edges in FF on hover transition */
+  }
+
+  .hexLink {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    -webkit-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+    -ms-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+    transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+  }
+
+  /*** HEX CONTENT **********************************************************************/
+  .hex img {
+    left: -100%;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    -webkit-transform: rotate3d(0, 0, 0, 0deg);
+    -ms-transform: rotate3d(0, 0, 0, 0deg);
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+
+  .hex h1,
+  .hex p {
+    width: 100%;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color: rgba(96, 64, 32, 0.8);
+    font-weight: 300;
+    -webkit-transition: -webkit-transform .2s ease-out, opacity .3s ease-out;
+    transition: transform .2s ease-out, opacity .3s ease-out;
+  }
+
+  .hex h1 {
+    bottom: 50%;
+    padding-top: 50%;
+    font-size: 1.2em;
+    z-index: 1;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  .hex h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    width: 10%;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+  }
+
+  .hex p {
+    top: 42%;
+    padding-bottom: 50%;
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  /*  */
+  .ribbon {
+    width: 100%;
+  }
+
+  .ribbon img {
+    width: 500px;
+    height: 200px;
+  }
+
+  /*  */
+
+  /*** HOVER EFFECT  **********************************************************************/
+  .hexLink:hover h1,
+  .hexLink:focus h1,
+  .hexLink:hover p,
+  .hexLink:focus p {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    color: #fff;
+  }
+
+  /*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
+  @media (min-width:1201px) {
+
+    /* <- 5-4  hexagons per row */
+    #hexGrid {
+      padding-bottom: 4.4%
+    }
+
+    .hex {
+      width: 20%;
+      /* = 100 / 5 */
+    }
+
+    .hex:nth-child(9n+6) {
+      /* first hexagon of even rows */
+      margin-left: 10%;
+      /* = width of .hex / 2  to indent even rows */
+    }
+  }
+
+
+
+  @media (max-width: 1200px) and (min-width:601px) {
+
+    /* <- 3-2  hexagons per row */
+    #hexGrid {
+      padding-bottom: 7.4%
+    }
+
+    .hex {
+      width: 33.333%;
+      /* = 100 / 3 */
+    }
+
+    .hex:nth-child(5n+4) {
+      /* first hexagon of even rows */
+      margin-left: 16.666%;
+      /* = width of .hex / 2  to indent even rows */
+    }
+  }
+
+  @media (max-width: 600px) {
+    .ribbon img {
+      width: 300px;
+      height: 125px;
+    }
+
+    /* <- 2-1  hexagons per row */
+    #hexGrid {
+      padding-bottom: 11.2%
+    }
+
+    .hex {
+      width: 50%;
+      /* = 100 / 3 */
+    }
+
+    .hex:nth-child(3n+3) {
+      /* first hexagon of even rows */
+      margin-left: 25%;
+      /* = width of .hex / 2  to indent even rows */
+    }
+  }
+
+  @media (max-width: 400px) {
+    #hexGrid {
+      font-size: 13px;
+    }
+  }
+</style>
+ 
+
+    <!-- bootstrap -->
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="static/css/user.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/Buttons.css">
+
+    <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
+
+    <!-- js -->
+    <script defer="" src="static/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="gtag/js?id=G-1NGQRMP43J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1NGQRMP43J');
+    </script>
+
+    <title>
+Alegria 2022 | About Us
+</title>
+</head>
+
+
+
+<body class="loader-body">
+    <div class="loading-bg">
+    </div>
+    <div class="loader-div d-flex flex-column justify-content-center align-items-center">
+        <!-- <div class="loader d-flex flex-column align-items-center">
+            <video width="400" height="500" loop autoplay>
+                <source src="../static/files/loader.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div> -->
+        <div class="d-flex flex-column align-items-center">
+            <img src="static/images/AlegriaLogo.png" alt="alegria-logo" id="loader-logo" height="150px">
+            <div class="loader d-flex align-items-center justify-content-center px-3 sec-font fs-1 my-2">
+                <p id="loader-l">L</p>
+                <p id="loader-o">o</p>
+                <p id="loader-a">a</p>
+                <p id="loader-d">d</p>
+                <p id="loader-i">i</p>
+                <p id="loader-n">n</p>
+                <p id="loader-g">g</p>
+            </div>
+        </div>
+    </div>
+
+
+    <body class="min-vh-100">
+        <nav class="navbar navbar-main navbar-expand-lg navbar-light p-1 position-relative stroke">
+            <div class="container-fluid">
+                <a class="p-0" href="index-1.htm">
+                    <img src="static/images/AlegriaLogo.png" alt="alegria logo" class="alegria-logo">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-white" width="32px" height="32px" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="ms-3 navbar-nav me-auto mt-1 mb-2 mb-lg-0 sec-font fw-bold gy-3">
+                        <li class="nav-item">
+                            <a href="index-1.htm" class='navbar_links'>Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Events</a>
+                            <ul class="dropdown-menu" style="background-color: #681b0aec !important;" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/informals.html">Informals</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/fine-arts.html">Fine Arts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/performing-arts.html">Performing
+                                        Arts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/gaming.html">Gaming</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/sports.html">Sports</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/literary-arts.html">Literary
+                                        Arts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/technical-events.html">Technical
+                                        Events</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/technical-workshop.html">Technical
+                                        Workshops</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/management.html">Management
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/index.htm">All
+                                        Events
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Merchandise</a>
+                            <ul class="dropdown-menu" style="background-color: #681b0aec !important;" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="merchandise/Tshirts.html">Tshirts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="merchandise/Badges.html">Badges</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="announcements.html?filter=None" class='navbar_links'>Announcements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index-1.htm#artists" class='navbar_links'>Artists</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                            <ul class="dropdown-menu border-0" style="background-color: #681b0aec;" aria-labelledby="dropdownMenuButton2">
+                                <li>
+                                    <a href="about-us.html" class="dropdown-item navbar_links">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="app-download.html" class='dropdown-item navbar_links'>
+                                        Alegria App 2022
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="hackathon.html" class="dropdown-item navbar_links">Hackathon
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="polls.html" class="dropdown-item navbar_links">Polls</a>
+                                </li>
+                                <li>
+                                    <a href="user/quiz.html" class="dropdown-item navbar_links">Quiz</a>
+                                </li>
+                                <li>
+                                    <a href="https://pillaialegria.wordpress.com/" target="_blank" rel="noopener noreferrer" class="dropdown-item navbar_links">Blogs</a>
+                                </li>
+                                <li>
+                                    <a href="EBrochure2022.pdf" class="dropdown-item navbar_links">EBrochure
+                                        2022</a>
+                                </li>
+                                <li>
+                                    <a href="sponsors.html" class="dropdown-item navbar_links">Sponsors</a>
+                                </li>
+                                <li>
+                                    <a href="developers.html" class="dropdown-item navbar_links">Developers</a>
+                                </li>
+                                <li>
+                                    <a href="event-heads.html" class="dropdown-item navbar_links">Event Heads </a>
+                                </li>
+                                <li>
+                                    <a href="privacypolicy.html" class="dropdown-item navbar_links">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="publictermsofservice.html" class="dropdown-item navbar_links">Terms and
+                                        Conditions</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <button class="up-button">
+                        <a href="user-login.html" class="d-flex justify-content-center align-items-center rounded-3 text-red bg-white fs-7 px-4 py-2 me-2 main-font">
+                            <p class="my-0 me-2">
+                                Sign In
+                            </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewbox="0 0 24 24" stroke="currentColor" class="text-beige ms-2" width="24px" height="24px">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z"></path>
+                            </svg>
+                        </a>
+                    </button>
+                    
+
+                    
+
+                    
+                </div>
+            </div>
+        </nav>
+
+
+        
+
+<div class="container-fluid overflow-hidden be-beige bg-cover">
+  <div class="row px-3">
+    <div class="col text-center mx-2 p-4">
+      <h1 class="display-6 text-red main-font">About Us</h1>
+    </div>
+    <!--  -->
+    <div class="aboutus-content cover-color">
+      <p class="sec-font text-black fs-7 p-3" style="text-align: justify;">
+        <span class="main-font fs-6">Alegria- The Festival of joy</span> congregated by The
+        Pillai
+        Group Of Institutions. Alegria is one of the most phenomenal intercollegiate festivals of its kind. It is held
+        in
+        February every year with a mob of more than 50,000 to witness the flow of immense talent in the events. With
+        fun
+        and joy this event also escorts the presence of splendid talent and star celebrities. This festival continues to
+        add
+        a pack of memories to everyone's life with each passing year and the dedicated team of students and faculty
+        always
+        hold its back to add on to the astonishing experience. Be it the unique themes like the “Light The Night” from
+        last
+        year or the astounding performances, they never fail to amaze us. Star celebrities have always been one of the
+        emphasizing parts of the event, this festival has always been bestowed with the presence of some of the most
+        renowned celebrities in the entertainment industry. To name a few, Ranbir kapoor, Deepika Padukone, Ayushman
+        Khurrana, Siddharth Malhotra, Sonam Kapoor, Karthik Aryan, Nushrat Bharucha, Sunny Nijhar, Govinda, Elli Avram,
+        Saquib Salim, Zayed Khan, Rakul Preet Kaur, Lauren Gottlieb, Jackky Bhagani, Ranvijay Singha, Pallavi Sharda,
+        Warina
+        Hussain, Pushkar Jog, Sarah Jane Diad, Aaparshakti Khurrana, Varun Dhawan, Shraddha Kapoor, Aisha Sharma, Shama
+        Sikandar, Rinku Rajguru, Chinmay Udgirkar, Sonali Seygall, Adah Sharma, Rohan Mehra, Nibedita Pal, Chetna Pande
+        along with Indian beatbox sensation D cypher and dance guru Rahul Shetty and Dhanashree Varma and one of the
+        best
+        standup comedian, Kenny Sebastian have blessed us with their presence on the platform that is Alegria to promote
+        their movies and upcoming projects to the magnificent crowd attending and also to judge those events. As it is
+        said,
+        music is a therapy for mind and heart and Alegria was overjoyed to hear the delightful performances for some of
+        the
+        spectacular music artist like Guru Randhawa, Divine, Yo Yo Honey Singh, Superstar Farhan Akhtar, award-winning
+        Romanian pop band Akcent, Dhvani Bhanushali, Armaan Malik and the Sabali Band. Sports world champions Bhaichung
+        Bhutiya, Sunil Chhetri, Ashwini Ponnappa, Sahil Khan, Sangram Chougule, Murali Kumar Syed Kirmani and Rushabh
+        Choksi
+        also visited to display their talent. Alegria experiences some of the finest DJs like Mariana Bo, Tomorrowland’s
+        resident DJ Yves V, DJs Sultan Shepard, DJ Mag’s 33rd ranked Quintino, Teri Miko, Mike Candys and Diego Miranda.
+        The
+        audience can never suppress the urge to trip, spin and sway on their amazing beats. The festival is the outcome
+        of
+        the immense efforts of the students who manage, participate and organize the events taking place in the festival
+        and
+        handle it with great professionalism, spirit and care. Their enthusiasm adds into the festival making it a big
+        success every year. The festival commenced with an ambition of showcasing the power of the youth and has
+        persistently succeeded in doing so.
+      </p>
+    </div>
+    <!--  -->
+    <div class="ribbon" style="text-align: center;">
+      <img src="static/images/aboutus-ribbons/2021.png">
+    </div>
+    <ul id="hexGrid">
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='static/images/aboutus-ribbons/alegria21.png' style="object-fit: cover;" alt="">
+            <h1>Light the Night</h1>
+            <p>Alegria 2021 at Pillai&#39;s</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='static/images/aboutus-ribbons/saundarya.jpg' style="object-fit: cover;" alt="">
+            <h1>Soundarya Sharma</h1>
+            <p>Mr and Ms Alegria Judge at Pillai&#39;s Alegria 2021</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='static/images/aboutus-ribbons/danish.jpg' style="object-fit: cover;" alt="">
+            <h1>Danish Halfaz</h1>
+            <p>Judge for Singing event at Pillai&#39;s Alegria 2021</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='static/images/aboutus-ribbons/rap.jpg' style="object-fit: cover;" alt="">
+            <h1>Aby Mashe &amp; Raptonicz</h1>
+            <p>Judge for Rapping event at Pillai&#39;s Alegria 2021</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='static/images/aboutus-ribbons/final21.png' style="object-fit: cover;" alt="">
+            <h1>Final Day of Alegria 2021</h1>
+            <p>Indeed a spectacular day</p>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+    <div class="ribbon" style="text-align: center;">
+      <img src="static/images/aboutus-ribbons/2020.png">
+    </div>
+    <ul id="hexGrid">
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='static/images/aboutus-ribbons/alegria_banner.JPG' alt="">
+            <h1>Alegria Banner</h1>
+            <p>Alegria 2020 Banner Unveiling Ceremony</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='static/images/aboutus-ribbons/varunandshraddha.JPG' alt="">
+            <h1>Varun Dhawan &amp; Shraddha Kapoor</h1>
+            <p>Promotion of their film SD3</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='static/images/aboutus-ribbons/adah_sharma.PNG' alt="">
+            <h1>Adah Sharma</h1>
+            <p>Face of Alegria Judge at Pillai&#39;s Alegria 2020</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='static/images/aboutus-ribbons/armaan.JPG' alt="">
+            <h1>Armaan Malik</h1>
+            <p>Live in concert at Pillai&#39;s alegria 2020</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='static/images/aboutus-ribbons/edm_night.jpg' alt="">
+            <h1>EDM night</h1>
+            <p>EDM night at Pillai&#39;s Alegria 2020</p>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+    <div class="ribbon" style="text-align: center;">
+      <img src="static/images/aboutus-ribbons/2019.png">
+    </div>
+    <ul id="hexGrid">
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/52755297_328798327767661_3478363029250924476_n.jpg' alt="">
+            <h1>Alegria Banner</h1>
+            <p>Alegria 2019 Banner Unveiling Ceremony</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/53690441_262229008051488_6967546173987827607_n.jpg' alt="">
+            <h1>Lauren Gottlieb</h1>
+            <p>Solo Dance Event Judge at Pillai&#39;s Alegria 2019</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/54800736_124147688716617_7738250650258373737_n.jpg' alt="">
+            <h1>Ayushmann Khurrana</h1>
+            <p>Live in Concert at Pillai&#39;s Alegria 2019</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/picsart_02-08-11.56.43-scaled.jpg' alt="">
+            <h1>Zakir Khan</h1>
+            <p>Comedy Night at Pillai&#39;s Alegria 2019</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/51369870_228660374753455_1411332535976243582_n.jpg' alt="">
+            <h1>Mariana Bo</h1>
+            <p>EDM Night at Pillai&#39;s Alegria 2019</p>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+    <div class="ribbon" style="text-align: center;">
+      <img src="static/images/aboutus-ribbons/2018.png">
+    </div>
+    <ul id="hexGrid">
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/40669850_230752934287684_2203215946495110325_n.jpg' alt="">
+            <h1>Siddharth &amp; Rakul</h1>
+            <p>For the shooting and promotion of their movie Aiyaary</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/30052338_987051811446354_787657953053930432_o-1.jpg' alt="">
+            <h1>Evelyn Sharma</h1>
+            <p>Face of Alegria Judge at Pillai&#39;s Alegria 2018</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/27581525_1964397220480815_5794201960827584512_n.jpg' alt="">
+            <h1>Guru Randhawa</h1>
+            <p>Live in Concert at Pilla&#39;s Alegria 2018</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/29063834_975555455929323_5683855582174028769_o.jpg' alt="">
+            <h1>Kartik Aryan</h1>
+            <p>For the promotion of their film Sonu Ke Tittu Ki Sweety</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/27579253_246877782519960_3378229028002463744_n.jpg' alt="">
+            <h1>Biswa Kalyan Rath</h1>
+            <p>Comedy Night at Pillai&#39;s Alegria 2018</p>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+    <div class="ribbon" style="text-align: center;">
+      <img src="static/images/aboutus-ribbons/2017.png">
+    </div>
+    <ul id="hexGrid">
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/17159054_771868956297975_4845382192005008835_o.jpg' alt="">
+            <h1>Theme Banner</h1>
+            <p>Pillai&#39;s Alegria 2017 Banner Unveiling Ceremony</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/17991589_796659590485578_765693952768954988_o.jpg' alt="">
+            <h1>Rochelle Rao</h1>
+            <p>Mr. and Ms. Alegria 2017 Judge at Pillai&#39;s Alegria 2017</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/gov.jpg' alt="">
+            <h1>Govinda</h1>
+            <p>For the promotion of their movie Aa Gaya Hero</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/16906853_1214014375319442_3286638850415263744_n.jpg' alt="">
+            <h1>Shibani Dandekar</h1>
+            <p>Face of Alegria Judge at Pillai&#39;s Alegria 2017</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/22708643_120917241938576_3320806380406833152_n.jpg' alt="">
+            <h1>EDM Night</h1>
+            <p>Lost Stories and Nucleya at EDM Night Pillai&#39;s Alegria 2017</p>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+    <!--  -->
+    <div class="ribbon" style="text-align: center;">
+      <img src="static/images/aboutus-ribbons/2016.png">
+    </div>
+    <ul id="hexGrid">
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/bUc4Z6L.jpg' alt="">
+            <h1>Sonam Kapoor Ahuja</h1>
+            <p>FOr the promotion of her movie Neerja</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/L89xPU4.jpg' alt="">
+            <h1>Commander Abhilash Tomy</h1>
+            <p>Cheif Guest at Pillai&#39;s Alegria 2016 Opening Ceremony</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/S2fsWFk.jpg' alt="">
+            <h1>Candice Redding</h1>
+            <p>EDM Night at Pillai&#39;s Alegria 2016</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/ADL63yd.jpg' alt="">
+            <h1>Saran Jane Dias and Dias Aqeel</h1>
+            <p>EDM Night at Pillai&#39;s Alegria 2016</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/aNpsnnIr.jpg' alt="">
+            <h1>Nucleya</h1>
+            <p>EDM Night at Pillai&#39;s Alegria 2016</p>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+    <div class="ribbon" style="text-align: center;">
+      <img src="static/images/aboutus-ribbons/2015.png">
+    </div>
+    <ul id="hexGrid">
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/11174489_465403733611167_1470140516172221823_o-1.jpg' alt="">
+            <h1>Vishal Shekhar</h1>
+            <p>Bollywood Night at Pillai&#39;s Alegria 2015</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/10991278_432167283601479_5284963714483418256_n.jpg' alt="">
+            <h1>Ganesh Acharya</h1>
+            <p>TO judge Mr. and Ms. Alegria Personality Competition and to promote his film Hey Bro</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/355492-nikhil-chinapa-was-snapped-performing-at-alegria-fest.jpg' alt="">
+            <h1>Nikhil Chinappa</h1>
+            <p>EDM Night at Pillai&#39;s Alegria 2015</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/11165090_466491726835701_1457314546938452658_o.jpg' alt="">
+            <h1>DJ Cheatas</h1>
+            <p>EDM Night at Pillai&#39;s Alegria 2015</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/01/12291134_545365958948277_7970449145303321520_o.jpg' alt="">
+            <h1>Deepika Padukone and Ranbir Kapoor</h1>
+            <p>For the promotion of movie Tamasha</p>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+    <!--  -->
+    <div class="ribbon" style="text-align: center;">
+      <img src="static/images/aboutus-ribbons/2014.png">
+    </div>
+    <ul id="hexGrid">
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/02/1795967_288017128016496_1183318724_o.jpg' alt="">
+            <h1>Elli Avram</h1>
+            <p>Mr. and Ms. Personality Judge at Pillai&#39;s Alegria 2014</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/02/1597263_282759878542221_439749103_o.jpg' alt="">
+            <h1>Ashwini Ponappa</h1>
+            <p>The students from M.E.S. institutions were felicitated by the ace Indain Shuttler, the Commonwealth Gold Medalist, for their achievements in Sports.</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/02/1781155_286027124882163_456029069_o.jpg' alt="">
+            <h1>Rakul Preet Singh</h1>
+            <p>Foot Loose Judge Pillai&#39;s Alegria 2014</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/02/1939871_295118557306353_1168641830_o.jpg' alt="">
+            <h1>Yo Yo Honey Singh</h1>
+            <p>Perfrmed his famous hits at Pillai&#39;s Alegria 2014</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/02/1073184_10151861086680598_168577209_o.jpg' alt="">
+            <h1>Farhan Akhtar</h1>
+            <p>Performs with his band Farhan Live at Pillai&#39;s Alegria 2014</p>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+    <div class="ribbon" style="text-align: center;">
+      <img src="static/images/aboutus-ribbons/2013.png">
+    </div>
+    <ul id="hexGrid" class="mb-4">
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/02/201225_211189352365941_1832788236_o.jpg' alt="">
+            <h1>The Beginning</h1>
+            <p>Banner Unveiling Ceremony of Pillai&#39;s Alegria 2013</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/02/894905_167916496693227_507812245_o.jpg' alt="">
+            <h1>Akcent</h1>
+            <p>They came. They performed. They conquered every heart.</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/02/886933_166332770184933_1598087417_o.jpg' alt="">
+            <h1>Jakcy Bhagnani</h1>
+            <p>A star-studded night at Pillai&#39;s Alegria 2013</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/02/1040387_205662939585249_662025069_o.jpg' alt="">
+            <h1>Parvathy Omanakuttan</h1>
+            <p>Judge for Personality Contest</p>
+          </div>
+        </div>
+      </li>
+      
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src='https://alegria.co.in/wp-content/uploads/2020/02/860720_157801544371389_1690095924_o.jpg' alt="">
+            <h1>Baichung Bhutia</h1>
+            <p>&#39;Sikkimese Sniper&#39; to inaugrate the Synthetic Turf</p>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
+    <br>
+  </div>
+</div>
+
+
+        <!-- footer -->
+        <footer class="d-flex flex-column px-2 overflow-hidden u-text-beige" style="background-color: #272626;">
+            <div class="row d-flex justify-content-center g-4 p-4 pt-5">
+                <div class="col-lg-3 col-sm-6">
+                    <p class="footer_link">Here's how you can reach us</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.6693193422207!2d73.12548141390256!3d18.990206059600766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e866de88667f%3A0xc1c5d5badc610f5f!2sPillai%20College%20of%20Engineering%2C%20New%20Panvel!5e0!3m2!1sen!2sin!4v1639657181713!5m2!1sen!2sin" width="220" height="150" style="border:0;" allowfullscreen="true" loading="lazy" class="rounded-3"></iframe>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <li>
+                        <a href="events/fine-arts.html" class="footer_link mb-1">
+                            Fine Arts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/gaming.html" class="footer_link mb-1">
+                            Gaming
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/informals.html" class="footer_link mb-1">
+                            Informals
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/literary-arts.html" class="footer_link mb-1">
+                            Literary Arts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/management.html" class="footer_link mb-1">
+                            Management
+                        </a>
+                    </li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <li>
+                        <a href="event/technical-events/index.htm" class="footer_link mb-1">
+                            Technical Events
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/technical-workshop.html" class="footer_link mb-1">
+                            Technical Workshops
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/performing-arts.html" class="footer_link mb-1">
+                            Performing Arts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/sports.html" class="footer_link mb-1">
+                            Sports
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/special-events.html" class="footer_link mb-1">
+                            Special Events
+                        </a>
+                    </li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <li>
+                        <a href="index-1.htm" class="footer_link mb-1">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="user-login.html" class="footer_link mb-1">
+                            Login
+                        </a>
+                    </li>
+                    <li>
+                        <a href="hackathon.html" class="footer_link mb-1">
+                            Hackathon
+                        </a>
+                    </li>
+                    <li>
+                        <a href="merchandise/Tshirts.html" class="footer_link mb-1">
+                            Merchandise Tshirts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="developers.html" class="footer_link mb-1">
+                            Developers
+                        </a>
+                    </li>
+                    <li class="my-1">
+                        <a href="https://play.google.com/store/apps/details?id=com.mes.alegria" target="_blank" rel="noopener noreferrer" class="px-3 py-1 d-flex align-items-center rounded-3" style="background-color: black;width: 60%;height: 60%;">
+                            <img src="static/images/icons/playstore.png" alt="playstore icon" class="me-1">
+                            <p class="sec-font mb-0" style="font-size: 0.7rem;">
+                                <span>
+                                    Get It On
+                                </span>
+                                <br>
+                                <span>
+                                    Google Play
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                </div>
+            </div>
+            <div class="row g-2 py-2" style="background-color: #242121;">
+                <div class="col-md-4 col-sm-12">
+                    <p class="footer_link mb-1 text-center">Copyright 2022 Alegria</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="https://www.instagram.com/pillaisalegria/" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                            <i class="fab fa-instagram fs-5"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCfqP3NEaaXPsgHn8QX3qilw" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                            <i class="fab fa-youtube fs-5"></i>
+                        </a>
+                        <a href="https://www.facebook.com/pillaisalegria" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                            <i class="fab fa-facebook-square fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <p class="footer_link mb-1 text-center">Powered by Alegria</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+    
+
+</body></html>

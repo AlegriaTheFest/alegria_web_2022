@@ -1,0 +1,721 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<script src="../../static/js/loading.js"></script>
+
+  
+
+    <!-- bootstrap -->
+    <!-- css -->
+    <link rel="stylesheet" href="../../static/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../../static/css/user.css">
+    <link rel="stylesheet" href="../../static/css/main.css">
+    <link rel="stylesheet" href="../../static/css/Buttons.css">
+
+    <link rel="shortcut icon" href="../static/images/favicon.ico" type="image/x-icon">
+
+    <!-- js -->
+    <script defer="" src="../../static/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../../jquery-1.7.1.min.js"></script>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="../../ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="../../gtag/js?id=G-1NGQRMP43J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1NGQRMP43J');
+    </script>
+
+    <title>
+Blitz Chess | Alegria 2022
+</title>
+</head>
+
+
+
+<body class="loader-body">
+    <div class="loading-bg">
+    </div>
+    <div class="loader-div d-flex flex-column justify-content-center align-items-center">
+        <!-- <div class="loader d-flex flex-column align-items-center">
+            <video width="400" height="500" loop autoplay>
+                <source src="../static/files/loader.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div> -->
+        <div class="d-flex flex-column align-items-center">
+            <img src="../../static/images/AlegriaLogo.png" alt="alegria-logo" id="loader-logo" height="150px">
+            <div class="loader d-flex align-items-center justify-content-center px-3 sec-font fs-1 my-2">
+                <p id="loader-l">L</p>
+                <p id="loader-o">o</p>
+                <p id="loader-a">a</p>
+                <p id="loader-d">d</p>
+                <p id="loader-i">i</p>
+                <p id="loader-n">n</p>
+                <p id="loader-g">g</p>
+            </div>
+        </div>
+    </div>
+
+
+    <body class="min-vh-100">
+        <nav class="navbar navbar-main navbar-expand-lg navbar-light p-1 position-relative stroke">
+            <div class="container-fluid">
+                <a class="p-0" href="../../index-1.htm">
+                    <img src="../../static/images/AlegriaLogo.png" alt="alegria logo" class="alegria-logo">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-white" width="32px" height="32px" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="ms-3 navbar-nav me-auto mt-1 mb-2 mb-lg-0 sec-font fw-bold gy-3">
+                        <li class="nav-item">
+                            <a href="../../index-1.htm" class='navbar_links'>Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style='color: #e8ff84;'>Events</a>
+                            <ul class="dropdown-menu" style="background-color: #681b0aec !important;" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/informals.html">Informals</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/fine-arts.html">Fine Arts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/performing-arts.html">Performing
+                                        Arts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/gaming.html">Gaming</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/sports.html">Sports</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/literary-arts.html">Literary
+                                        Arts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/technical-events.html">Technical
+                                        Events</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/technical-workshop.html">Technical
+                                        Workshops</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/management.html">Management
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/index.htm">All
+                                        Events
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Merchandise</a>
+                            <ul class="dropdown-menu" style="background-color: #681b0aec !important;" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../merchandise/Tshirts.html">Tshirts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../merchandise/Badges.html">Badges</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../../announcements.html?filter=None" class='navbar_links'>Announcements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../../index-1.htm#artists" class='navbar_links'>Artists</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                            <ul class="dropdown-menu border-0" style="background-color: #681b0aec;" aria-labelledby="dropdownMenuButton2">
+                                <li>
+                                    <a href="../../about-us.html" class="dropdown-item navbar_links">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../../app-download.html" class='dropdown-item navbar_links'>
+                                        Alegria App 2022
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../../hackathon.html" class="dropdown-item navbar_links">Hackathon
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../../polls.html" class="dropdown-item navbar_links">Polls</a>
+                                </li>
+                                <li>
+                                    <a href="../../user/quiz.html" class="dropdown-item navbar_links">Quiz</a>
+                                </li>
+                                <li>
+                                    <a href="https://pillaialegria.wordpress.com/" target="_blank" rel="noopener noreferrer" class="dropdown-item navbar_links">Blogs</a>
+                                </li>
+                                <li>
+                                    <a href="../../EBrochure2022.pdf" class="dropdown-item navbar_links">EBrochure
+                                        2022</a>
+                                </li>
+                                <li>
+                                    <a href="../../sponsors.html" class="dropdown-item navbar_links">Sponsors</a>
+                                </li>
+                                <li>
+                                    <a href="../../developers.html" class="dropdown-item navbar_links">Developers</a>
+                                </li>
+                                <li>
+                                    <a href="../../event-heads.html" class="dropdown-item navbar_links">Event Heads </a>
+                                </li>
+                                <li>
+                                    <a href="../../privacypolicy.html" class="dropdown-item navbar_links">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="../../publictermsofservice.html" class="dropdown-item navbar_links">Terms and
+                                        Conditions</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <button class="up-button">
+                        <a href="../../user-login.html" class="d-flex justify-content-center align-items-center rounded-3 text-red bg-white fs-7 px-4 py-2 me-2 main-font">
+                            <p class="my-0 me-2">
+                                Sign In
+                            </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewbox="0 0 24 24" stroke="currentColor" class="text-beige ms-2" width="24px" height="24px">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z"></path>
+                            </svg>
+                        </a>
+                    </button>
+                    
+
+                    
+
+                    
+                </div>
+            </div>
+        </nav>
+
+
+        
+<div class="container-fluid">
+    <div class="row min-w-100 min-vh-100 bg-teal overflow-hidden sec-font">
+        <div class="col-lg-12 col-sm-12 p-3 bg-cover">
+            <div class="cover-color p-3">
+                <!-- go back button -->
+                <div class="row">
+                    <div class="col-lg-2 col-sm-3">
+                        <a href="../../events/sports.html" type="button" class="go_back_btn py-1 text-dark">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewbox="0 0 24 24" class="me-2" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                            </svg>
+                            Go Back
+                        </a>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col-lg-5 col-sm-12 d-flex justify-content-center">
+                        <img src="../../static/images/icons/Sports/Blitz%20Chess.png" alt="event image" height="220px" class="my-5">
+                    </div>
+                    <div class="col-lg-7 col-sm-12">
+                        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb fs-7 text-black">
+                                <li class="breadcrumb-item">
+                                    All Events
+                                </li>
+                                <li class="breadcrumb-item" aria-current="page">
+                                    <a class="text-black" href="../../events/sports.html">
+                                        Sports
+                                    </a>
+                                </li>
+                                <li class="breadcrumb-item text-red main-font" aria-current="page">
+                                    Blitz Chess</li>
+                            </ol>
+                        </nav>
+                        <h1 class="text-red fs-3 mt-2">
+                            Blitz Chess
+                        </h1>
+                        <p class="text-black fs-7 fw-light mb-1">
+                            The ultimate showdown between time and your strategies. Showcase your time control
+skills and baffle the opponents. Get your strategies together and let the countdown
+begin.
+
+                        </p>
+                        <h2 class="text-red my-2 main-font">
+                            100 Rs
+                        </h2>
+                        
+                        
+                        <button type="button" class="normal-button w-100 d-flex align-items-center justify-content-center border-0 bg-red my-3 mb-2 fs-6 py-1 px-3 rounded-3 text-light" style="max-width:12rem;" disabled="">
+                            <a href="https://pages.razorpay.com/SPORTS-alegria-22" target="_blank" rel="noopener noreferrer" class="text-light w-100">
+                                Buy Event
+                            </a>
+                        </button>
+                        
+                        <span class="fs-8 text-black sec-font w-50">
+                            ( You will be redirected to razorpay payment page, choose your event and pay the required
+                            amount )
+                        </span>
+                        <div style="background-color: black;height:2px;margin:10px 0;"></div>
+                        <p class="fs-7 mb-1 text-black fw-normal">
+                            Category: Sports
+                        </p>
+                        <p class="fs-7 mb-1 text-black fw-normal">
+                            Category Code: S
+                        </p>
+                        <p class="fs-7 mb-1 text-black fw-normal">
+                            Mode: Offline
+                        </p>
+                        <p class="fs-7 mb-1 text-black fw-normal">
+                            Contact 1: Sohan Bhujbal- 9860377037
+                        </p>
+                        
+                        <p class="fs-7 mb-1 text-black fw-normal">
+                            Contact 2: Faraz Raza- 7900019313
+                        </p>
+                        
+                        
+                        
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <div class="d-flex">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1" onclick="hideothers()">
+                            + Details
+                        </button>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2" onclick="hideothers()">
+                            + Perks
+                        </button>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3" onclick="hideothers()">
+                            + Rules
+                        </button>
+                    </div>
+                    <div class="d-flex">
+                        <div class="collapse collapse-horizontal" id="collapse1">
+                            <div class="card collapse-card u-text-light-brown" style="width:90vw;max-width:500px">
+                                Date & Time: 24th March 2022<br>
+                                Criteria: Closed
+                            </div>
+                        </div>
+                        <div class="collapse collapse-horizontal" id="collapse2">
+                            <div class="card collapse-card u-text-light-brown" style="width:90vw;max-width:500px">
+                                
+                                <li class="fs-7 mb-1">
+                                    1st prize : 2000 + Certificate
+                                </li>
+                                
+                                
+                                <li class="fs-7 mb-1">2nd prize :1000 + Certificate</li>
+                                
+                                
+                                <li class="fs-7 mb-1">3rd prize:
+                                    Certificate
+                                </li>
+                                
+                            </div>
+                        </div>
+                        <div class="collapse collapse-horizontal" id="collapse3">
+                            <div class="card collapse-card text-black p-3 fs-6" style="width:70vw;">
+                                <ol>
+<li>1. Duration of the match will be 10 minutes.</li>
+<li>2. Matches will be conducted as per FIDE laws.</li>
+<li>3. Matches will be played on a knockout basis.</li>
+<li>4. No of Participants: 01</li>
+</ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-3 w-100 d-flex justify-content-center">
+                    <div style="background-color: black;height:2px;margin:10px 0;"></div>
+                    <h5 class="fs-5 mt-2 m-1 main-font text-black">Events From Similar Category</h5>
+                    <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 g-4 my-1">
+                        
+                        
+                        <div class="col d-flex flex-column align-items-center">
+                            <a href="S01.html" class="event-card-small p-1">
+                                <div class="event-circle">
+                                    <img src="../../static/images/icons/Sports/Chess.png" alt="card-image" width="140px" height="140px">
+                                </div>
+                                <h3 class="fs-6 text-red text-center main-font px-2 my-1">Chess</h3>
+                                <span class="fs-7 text-black sec-font px-2">Sports</span>
+                                <p class="fs-5 text-red main-font px-2 mb-1">
+                                    100 ₹
+                                </p>
+                            </a>
+                        </div>
+                        
+
+                        
+                        
+
+                        
+                        
+                        <div class="col d-flex flex-column align-items-center">
+                            <a href="S03.html" class="event-card-small p-1">
+                                <div class="event-circle">
+                                    <img src="../../static/images/icons/Sports/Air-Rifle-Shooting.png" alt="card-image" width="140px" height="140px">
+                                </div>
+                                <h3 class="fs-6 text-red text-center main-font px-2 my-1">Air Rifle shooting</h3>
+                                <span class="fs-7 text-black sec-font px-2">Sports</span>
+                                <p class="fs-5 text-red main-font px-2 mb-1">
+                                    150 ₹
+                                </p>
+                            </a>
+                        </div>
+                        
+
+                        
+                        
+                        <div class="col d-flex flex-column align-items-center">
+                            <a href="S04.html" class="event-card-small p-1">
+                                <div class="event-circle">
+                                    <img src="../../static/images/icons/Sports/Badminton.png" alt="card-image" width="140px" height="140px">
+                                </div>
+                                <h3 class="fs-6 text-red text-center main-font px-2 my-1">Badminton (Girls)</h3>
+                                <span class="fs-7 text-black sec-font px-2">Sports</span>
+                                <p class="fs-5 text-red main-font px-2 mb-1">
+                                    100 ₹
+                                </p>
+                            </a>
+                        </div>
+                        
+
+                        
+                        
+                        <div class="col d-flex flex-column align-items-center">
+                            <a href="S05.html" class="event-card-small p-1">
+                                <div class="event-circle">
+                                    <img src="../../static/images/icons/Sports/Badminton.png" alt="card-image" width="140px" height="140px">
+                                </div>
+                                <h3 class="fs-6 text-red text-center main-font px-2 my-1">Badminton (Boys)</h3>
+                                <span class="fs-7 text-black sec-font px-2">Sports</span>
+                                <p class="fs-5 text-red main-font px-2 mb-1">
+                                    100 ₹
+                                </p>
+                            </a>
+                        </div>
+                        
+
+                        
+                        
+                        <div class="col d-flex flex-column align-items-center">
+                            <a href="S06.html" class="event-card-small p-1">
+                                <div class="event-circle">
+                                    <img src="../../static/images/icons/Sports/Carrom%20%282%29.png" alt="card-image" width="140px" height="140px">
+                                </div>
+                                <h3 class="fs-6 text-red text-center main-font px-2 my-1">Carrom (Singles)</h3>
+                                <span class="fs-7 text-black sec-font px-2">Sports</span>
+                                <p class="fs-5 text-red main-font px-2 mb-1">
+                                    100 ₹
+                                </p>
+                            </a>
+                        </div>
+                        
+
+                        
+                        
+                        <div class="col d-flex flex-column align-items-center">
+                            <a href="S07.html" class="event-card-small p-1">
+                                <div class="event-circle">
+                                    <img src="../../static/images/icons/Sports/Carrom%20%282%29.png" alt="card-image" width="140px" height="140px">
+                                </div>
+                                <h3 class="fs-6 text-red text-center main-font px-2 my-1">Carrom (Doubles)</h3>
+                                <span class="fs-7 text-black sec-font px-2">Sports</span>
+                                <p class="fs-5 text-red main-font px-2 mb-1">
+                                    150 ₹
+                                </p>
+                            </a>
+                        </div>
+                        
+
+                        
+                        
+                        <div class="col d-flex flex-column align-items-center">
+                            <a href="S08.html" class="event-card-small p-1">
+                                <div class="event-circle">
+                                    <img src="../../static/images/icons/Sports/Box-Cricket.png" alt="card-image" width="140px" height="140px">
+                                </div>
+                                <h3 class="fs-6 text-red text-center main-font px-2 my-1">Box Cricket</h3>
+                                <span class="fs-7 text-black sec-font px-2">Sports</span>
+                                <p class="fs-5 text-red main-font px-2 mb-1">
+                                    1000 ₹
+                                </p>
+                            </a>
+                        </div>
+                        
+
+                        
+                        
+                        <div class="col d-flex flex-column align-items-center">
+                            <a href="S09.html" class="event-card-small p-1">
+                                <div class="event-circle">
+                                    <img src="../../static/images/icons/Sports/futsal.png" alt="card-image" width="140px" height="140px">
+                                </div>
+                                <h3 class="fs-6 text-red text-center main-font px-2 my-1">Futsal </h3>
+                                <span class="fs-7 text-black sec-font px-2">Sports</span>
+                                <p class="fs-5 text-red main-font px-2 mb-1">
+                                    1000 ₹
+                                </p>
+                            </a>
+                        </div>
+                        
+
+                        
+                        
+                        <div class="col d-flex flex-column align-items-center">
+                            <a href="S10.html" class="event-card-small p-1">
+                                <div class="event-circle">
+                                    <img src="https://drive.google.com/uc?export=view&id=1uzy8tTOQAGTX8wlQ6ep7Q1Aw31eemUm7" alt="card-image" width="140px" height="140px">
+                                </div>
+                                <h3 class="fs-6 text-red text-center main-font px-2 my-1">Sprint</h3>
+                                <span class="fs-7 text-black sec-font px-2">Sports</span>
+                                <p class="fs-5 text-red main-font px-2 mb-1">
+                                    100 ₹
+                                </p>
+                            </a>
+                        </div>
+                        
+
+                        
+                        
+                        <div class="col d-flex flex-column align-items-center">
+                            <a href="S11.html" class="event-card-small p-1">
+                                <div class="event-circle">
+                                    <img src="https://drive.google.com/uc?export=view&id=1Qf3ZfcOyVSwn-FXoRmfILKPivm3qQ3rF" alt="card-image" width="140px" height="140px">
+                                </div>
+                                <h3 class="fs-6 text-red text-center main-font px-2 my-1">Basketball </h3>
+                                <span class="fs-7 text-black sec-font px-2">Sports</span>
+                                <p class="fs-5 text-red main-font px-2 mb-1">
+                                    300 ₹
+                                </p>
+                            </a>
+                        </div>
+                        
+
+                        
+                        
+                        <div class="col d-flex flex-column align-items-center">
+                            <a href="S12.html" class="event-card-small p-1">
+                                <div class="event-circle">
+                                    <img src="https://drive.google.com/uc?export=view&id=1xxTB7qCxz4UjFafQ1NJ7eTFjIVo8nALi" alt="card-image" width="140px" height="140px">
+                                </div>
+                                <h3 class="fs-6 text-red text-center main-font px-2 my-1">Penalty Shootout</h3>
+                                <span class="fs-7 text-black sec-font px-2">Sports</span>
+                                <p class="fs-5 text-red main-font px-2 mb-1">
+                                    100 ₹
+                                </p>
+                            </a>
+                        </div>
+                        
+
+                        
+                        
+                        <div class="col d-flex flex-column align-items-center">
+                            <a href="S13.html" class="event-card-small p-1">
+                                <div class="event-circle">
+                                    <img src="https://drive.google.com/uc?export=view&id=19jg-7OTmmCSlu2isXVegohjYYFn1QP3Y" alt="card-image" width="140px" height="140px">
+                                </div>
+                                <h3 class="fs-6 text-red text-center main-font px-2 my-1">Shot Put (Girls)</h3>
+                                <span class="fs-7 text-black sec-font px-2">Sports</span>
+                                <p class="fs-5 text-red main-font px-2 mb-1">
+                                    100 ₹
+                                </p>
+                            </a>
+                        </div>
+                        
+
+                        
+                        
+                        <div class="col d-flex flex-column align-items-center">
+                            <a href="S14.html" class="event-card-small p-1">
+                                <div class="event-circle">
+                                    <img src="https://drive.google.com/uc?export=view&id=19jg-7OTmmCSlu2isXVegohjYYFn1QP3Y" alt="card-image" width="140px" height="140px">
+                                </div>
+                                <h3 class="fs-6 text-red text-center main-font px-2 my-1">Shot Put (Boys)</h3>
+                                <span class="fs-7 text-black sec-font px-2">Sports</span>
+                                <p class="fs-5 text-red main-font px-2 mb-1">
+                                    100 ₹
+                                </p>
+                            </a>
+                        </div>
+                        
+
+                        
+                        
+                        <div class="col d-flex flex-column align-items-center">
+                            <a href="s15.html" class="event-card-small p-1">
+                                <div class="event-circle">
+                                    <img src="../../static/images/icons/Sports/table-tennis.png" alt="card-image" width="140px" height="140px">
+                                </div>
+                                <h3 class="fs-6 text-red text-center main-font px-2 my-1">Table Tennis</h3>
+                                <span class="fs-7 text-black sec-font px-2">Sports</span>
+                                <p class="fs-5 text-red main-font px-2 mb-1">
+                                    100 ₹
+                                </p>
+                            </a>
+                        </div>
+                        
+
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    document.getElementById('collapse1').classList.add("show");
+    function hideothers() {
+        document.getElementById('collapse1').classList.remove("show");
+        document.getElementById('collapse2').classList.remove("show");
+        document.getElementById('collapse3').classList.remove("show");
+    }
+</script>
+
+
+        <!-- footer -->
+        <footer class="d-flex flex-column px-2 overflow-hidden u-text-beige" style="background-color: #272626;">
+            <div class="row d-flex justify-content-center g-4 p-4 pt-5">
+                <div class="col-lg-3 col-sm-6">
+                    <p class="footer_link">Here's how you can reach us</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.6693193422207!2d73.12548141390256!3d18.990206059600766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e866de88667f%3A0xc1c5d5badc610f5f!2sPillai%20College%20of%20Engineering%2C%20New%20Panvel!5e0!3m2!1sen!2sin!4v1639657181713!5m2!1sen!2sin" width="220" height="150" style="border:0;" allowfullscreen="true" loading="lazy" class="rounded-3"></iframe>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <li>
+                        <a href="../../events/fine-arts.html" class="footer_link mb-1">
+                            Fine Arts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/gaming.html" class="footer_link mb-1">
+                            Gaming
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/informals.html" class="footer_link mb-1">
+                            Informals
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/literary-arts.html" class="footer_link mb-1">
+                            Literary Arts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/management.html" class="footer_link mb-1">
+                            Management
+                        </a>
+                    </li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <li>
+                        <a href="../technical-events/index.htm" class="footer_link mb-1">
+                            Technical Events
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/technical-workshop.html" class="footer_link mb-1">
+                            Technical Workshops
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/performing-arts.html" class="footer_link mb-1">
+                            Performing Arts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/sports.html" class="footer_link mb-1">
+                            Sports
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/special-events.html" class="footer_link mb-1">
+                            Special Events
+                        </a>
+                    </li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <li>
+                        <a href="../../index-1.htm" class="footer_link mb-1">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../user-login.html" class="footer_link mb-1">
+                            Login
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../hackathon.html" class="footer_link mb-1">
+                            Hackathon
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../merchandise/Tshirts.html" class="footer_link mb-1">
+                            Merchandise Tshirts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../developers.html" class="footer_link mb-1">
+                            Developers
+                        </a>
+                    </li>
+                    <li class="my-1">
+                        <a href="https://play.google.com/store/apps/details?id=com.mes.alegria" target="_blank" rel="noopener noreferrer" class="px-3 py-1 d-flex align-items-center rounded-3" style="background-color: black;width: 60%;height: 60%;">
+                            <img src="../../static/images/icons/playstore.png" alt="playstore icon" class="me-1">
+                            <p class="sec-font mb-0" style="font-size: 0.7rem;">
+                                <span>
+                                    Get It On
+                                </span>
+                                <br>
+                                <span>
+                                    Google Play
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                </div>
+            </div>
+            <div class="row g-2 py-2" style="background-color: #242121;">
+                <div class="col-md-4 col-sm-12">
+                    <p class="footer_link mb-1 text-center">Copyright 2022 Alegria</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="https://www.instagram.com/pillaisalegria/" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                            <i class="fab fa-instagram fs-5"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCfqP3NEaaXPsgHn8QX3qilw" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                            <i class="fab fa-youtube fs-5"></i>
+                        </a>
+                        <a href="https://www.facebook.com/pillaisalegria" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                            <i class="fab fa-facebook-square fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <p class="footer_link mb-1 text-center">Powered by Alegria</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+    
+
+</body></html>

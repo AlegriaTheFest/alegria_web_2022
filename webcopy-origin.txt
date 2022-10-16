@@ -1,0 +1,1764 @@
+Uri: https://alegria.co.in/
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\index.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/about-us.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\about-us.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\ajax\libs\font-awesome\6.0.0-beta3\css\all.min.css
+Content Type: text/css
+
+Uri: https://alegria.co.in/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-brands-400.ttf
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-brands-400.ttf
+Content Type: font/ttf
+
+Uri: https://alegria.co.in/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-brands-400.woff2
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://alegria.co.in/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-regular-400.ttf
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-regular-400.ttf
+Content Type: font/ttf
+
+Uri: https://alegria.co.in/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-regular-400.woff2
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://alegria.co.in/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-solid-900.ttf
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://alegria.co.in/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-solid-900.woff2
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://alegria.co.in/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-v4compatibility.ttf
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-v4compatibility.ttf
+Content Type: font/ttf
+
+Uri: https://alegria.co.in/ajax/libs/font-awesome/6.0.0-beta3/webfonts/fa-v4compatibility.woff2
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\ajax\libs\font-awesome\6.0.0-beta3\webfonts\fa-v4compatibility.woff2
+Content Type: font/woff2
+
+Uri: https://alegria.co.in/ajax/libs/gsap/3.6.1/gsap.min.js
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\ajax\libs\gsap\3.6.1\gsap.min.js
+Content Type: application/javascript
+
+Uri: https://alegria.co.in/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\ajax\libs\ScrollMagic\2.0.6\ScrollMagic.min.js
+Content Type: application/javascript
+
+Uri: https://alegria.co.in/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\ajax\libs\ScrollMagic\2.0.8\plugins\animation.gsap.min.js
+Content Type: application/javascript
+
+Uri: https://alegria.co.in/announcements-1.html?filter=latest
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\announcements-1.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/announcements.html?filter=None
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\announcements.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/app-download.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\app-download.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/artists/a1.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\artists\a1.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/artists/a2.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\artists\a2.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/artists/a3.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\artists\a3.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/artists/a4.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\artists\a4.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/artists/a5.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\artists\a5.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/artists/a6.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\artists\a6.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/artists/a7.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\artists\a7.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/artists/a8.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\artists\a8.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/artists/a9.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\artists\a9.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/developers.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\developers.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/docs/securesc/rnt8q3al7peu1q5deqms10k66rtao6he/am85dj1bpgl9673287a8jfoqrf65nh7c/1649578200000/00733438911266130219/14747744803210622099Z/1Ksf5nWE_7t8U-9gayuUy_By0OQcKIN9u?export=view&id=1Ksf5nWE_7t8U-9gayuUy_By0OQcKIN9u
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\docs\securesc\rnt8q3al7peu1q5deqms10k66rtao6he\am85dj1bpgl9673287a8jfoqrf65nh7c\1649578200000\00733438911266130219\14747744803210622099Z\1Ksf5nWE_7t8U-9gayuUy_By0OQcKIN9u
+Content Type: 
+
+Uri: https://alegria.co.in/docs/securesc/rnt8q3al7peu1q5deqms10k66rtao6he/gchnofbb8kv8ri5kig39t850pvo55avo/1649578275000/00733438911266130219/14747744803210622099Z/1rS20CUVK7h_3D5lTliVmzYtLSTa68tze?export=view&id=1rS20CUVK7h_3D5lTliVmzYtLSTa68tze
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\docs\securesc\rnt8q3al7peu1q5deqms10k66rtao6he\gchnofbb8kv8ri5kig39t850pvo55avo\1649578275000\00733438911266130219\14747744803210622099Z\1rS20CUVK7h_3D5lTliVmzYtLSTa68tze
+Content Type: 
+
+Uri: https://alegria.co.in/docs/securesc/rnt8q3al7peu1q5deqms10k66rtao6he/m4lcn63f4c6a23ckfeht63qhued2tvfr/1649578200000/00733438911266130219/14747744803210622099Z/1KjwjM8SXU3bPfIjVp-y6WXUP9wvvQL5g?export=view&id=1KjwjM8SXU3bPfIjVp-y6WXUP9wvvQL5g
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\docs\securesc\rnt8q3al7peu1q5deqms10k66rtao6he\m4lcn63f4c6a23ckfeht63qhued2tvfr\1649578200000\00733438911266130219\14747744803210622099Z\1KjwjM8SXU3bPfIjVp-y6WXUP9wvvQL5g
+Content Type: 
+
+Uri: https://alegria.co.in/docs/securesc/rnt8q3al7peu1q5deqms10k66rtao6he/ogemlej7qe8uk79l4t8i1va7lu7so637/1649578200000/00733438911266130219/14747744803210622099Z/1Q2lEsAtgs5WEu8MCLx2yJWrCR5na-lBY?export=view&id=1Q2lEsAtgs5WEu8MCLx2yJWrCR5na-lBY
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\docs\securesc\rnt8q3al7peu1q5deqms10k66rtao6he\ogemlej7qe8uk79l4t8i1va7lu7so637\1649578200000\00733438911266130219\14747744803210622099Z\1Q2lEsAtgs5WEu8MCLx2yJWrCR5na-lBY
+Content Type: 
+
+Uri: https://alegria.co.in/docs/securesc/rnt8q3al7peu1q5deqms10k66rtao6he/r4fosi5pjmi6qqg9pf4fbdrcljr9p5lg/1649578200000/00733438911266130219/14747744803210622099Z/1XlOA99LPFMHOalLIV2G-eM0kfaa5H4rG?export=view&id=1XlOA99LPFMHOalLIV2G-eM0kfaa5H4rG
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\docs\securesc\rnt8q3al7peu1q5deqms10k66rtao6he\r4fosi5pjmi6qqg9pf4fbdrcljr9p5lg\1649578200000\00733438911266130219\14747744803210622099Z\1XlOA99LPFMHOalLIV2G-eM0kfaa5H4rG
+Content Type: 
+
+Uri: https://alegria.co.in/docs/securesc/rnt8q3al7peu1q5deqms10k66rtao6he/stgb1qtv6ge4os16n3hcv0p5p8n1k4ck/1649578200000/00733438911266130219/14747744803210622099Z/1nphUrLHa6T9iyGn0KnFcUtHwny3FZpEj?export=view&id=1nphUrLHa6T9iyGn0KnFcUtHwny3FZpEj
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\docs\securesc\rnt8q3al7peu1q5deqms10k66rtao6he\stgb1qtv6ge4os16n3hcv0p5p8n1k4ck\1649578200000\00733438911266130219\14747744803210622099Z\1nphUrLHa6T9iyGn0KnFcUtHwny3FZpEj
+Content Type: 
+
+Uri: https://alegria.co.in/docs/securesc/rnt8q3al7peu1q5deqms10k66rtao6he/v6i7819rnjjgqdcdiej9rdumdgqlmad5/1649578200000/00733438911266130219/14747744803210622099Z/1kSc43CKtAGBecw8j-3I8ysH-4zMLdXHK?export=view&id=1kSc43CKtAGBecw8j-3I8ysH-4zMLdXHK
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\docs\securesc\rnt8q3al7peu1q5deqms10k66rtao6he\v6i7819rnjjgqdcdiej9rdumdgqlmad5\1649578200000\00733438911266130219\14747744803210622099Z\1kSc43CKtAGBecw8j-3I8ysH-4zMLdXHK
+Content Type: 
+
+Uri: https://alegria.co.in/docs/securesc/rnt8q3al7peu1q5deqms10k66rtao6he/vqsbqicl67fnde5jdnbb4i81hkt1uou7/1649578200000/00733438911266130219/14747744803210622099Z/19DATxtT78BOn698wN4mOlSkGBBlvKu2S?export=view&id=19DATxtT78BOn698wN4mOlSkGBBlvKu2S
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\docs\securesc\rnt8q3al7peu1q5deqms10k66rtao6he\vqsbqicl67fnde5jdnbb4i81hkt1uou7\1649578200000\00733438911266130219\14747744803210622099Z\19DATxtT78BOn698wN4mOlSkGBBlvKu2S
+Content Type: 
+
+Uri: https://alegria.co.in/EBrochure2022.pdf
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\EBrochure2022.pdf
+Content Type: application/pdf
+
+Uri: https://alegria.co.in/en_GB/sdk.js
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\en_GB\sdk.js
+Content Type: application/javascript
+
+Uri: https://alegria.co.in/event-heads.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event-heads.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\index.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/?C=D;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\index-4.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/?C=D;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\index-8.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/?C=M;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\index-2.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/?C=M;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\index-6.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/?C=N;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\index-5.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/?C=N;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\index-1.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/?C=S;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\index-3.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/?C=S;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\index-7.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\index.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/?C=D;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\index-4.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/?C=D;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\index-8.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/?C=M;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\index-2.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/?C=M;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\index-6.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/?C=N;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\index-5.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/?C=N;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\index-1.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/?C=S;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\index-3.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/?C=S;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\index-7.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/FA01.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\FA01.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/FA02.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\FA02.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/FA03.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\FA03.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/FA04.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\FA04.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/FA05.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\FA05.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/FA06.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\FA06.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/FA07.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\FA07.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/fine-arts/FA08.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\fine-arts\FA08.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\index.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/?C=D;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\index-4.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/?C=D;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\index-8.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/?C=M;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\index-2.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/?C=M;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\index-6.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/?C=N;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\index-5.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/?C=N;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\index-1.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/?C=S;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\index-3.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/?C=S;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\index-7.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/G01.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\G01.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/G02.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\G02.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/G03.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\G03.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/G04.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\G04.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/G05.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\G05.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/G06.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\G06.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/G07.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\G07.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Gaming/G08.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Gaming\G08.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/informals/
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\informals\index.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/informals/?C=D;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\informals\index-4.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/informals/?C=D;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\informals\index-8.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/informals/?C=M;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\informals\index-2.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/informals/?C=M;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\informals\index-6.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/informals/?C=N;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\informals\index-5.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/informals/?C=N;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\informals\index-1.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/informals/?C=S;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\informals\index-3.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/informals/?C=S;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\informals\index-7.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/informals/I01.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\informals\I01.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/informals/I02.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\informals\I02.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/informals/I03.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\informals\I03.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/informals/I04.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\informals\I04.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/informals/I05.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\informals\I05.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/informals/I06.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\informals\I06.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/literary-arts/
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\literary-arts\index.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/literary-arts/?C=D;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\literary-arts\index-4.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/literary-arts/?C=D;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\literary-arts\index-8.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/literary-arts/?C=M;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\literary-arts\index-2.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/literary-arts/?C=M;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\literary-arts\index-6.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/literary-arts/?C=N;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\literary-arts\index-5.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/literary-arts/?C=N;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\literary-arts\index-1.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/literary-arts/?C=S;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\literary-arts\index-3.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/literary-arts/?C=S;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\literary-arts\index-7.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/literary-arts/LA01.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\literary-arts\LA01.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/literary-arts/LA02.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\literary-arts\LA02.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/literary-arts/LA03.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\literary-arts\LA03.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/literary-arts/LA04.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\literary-arts\LA04.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/literary-arts/LA05.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\literary-arts\LA05.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/literary-arts/LA06.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\literary-arts\LA06.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Management/
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Management\index.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Management/?C=D;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Management\index-4.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Management/?C=D;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Management\index-8.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Management/?C=M;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Management\index-2.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Management/?C=M;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Management\index-6.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Management/?C=N;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Management\index-5.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Management/?C=N;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Management\index-1.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Management/?C=S;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Management\index-3.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Management/?C=S;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Management\index-7.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Management/M01.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Management\M01.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Management/M02.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Management\M02.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Management/M03.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Management\M03.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Management/M04.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Management\M04.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Management/M05.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Management\M05.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\index.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/?C=D;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\index-4.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/?C=D;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\index-8.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/?C=M;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\index-2.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/?C=M;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\index-6.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/?C=N;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\index-5.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/?C=N;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\index-1.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/?C=S;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\index-3.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/?C=S;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\index-7.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/PA01.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\PA01.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/PA02.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\PA02.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/PA03.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\PA03.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/PA04.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\PA04.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/PA05.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\PA05.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/PA06.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\PA06.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/performing-arts/PA07.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\performing-arts\PA07.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\index.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/?C=D;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\index-4.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/?C=D;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\index-8.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/?C=M;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\index-2.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/?C=M;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\index-6.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/?C=N;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\index-5.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/?C=N;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\index-1.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/?C=S;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\index-3.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/?C=S;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\index-7.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/S01.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\S01.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/S02.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\S02.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/S03.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\S03.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/S04.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\S04.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/S05.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\S05.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/S06.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\S06.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/S07.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\S07.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/S08.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\S08.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/S09.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\S09.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/S10.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\S10.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/S11.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\S11.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/S12.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\S12.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/S13.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\S13.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/S14.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\S14.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/Sports/s15.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\Sports\s15.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-events/
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-events\index.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-events/?C=D;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-events\index-4.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-events/?C=D;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-events\index-8.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-events/?C=M;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-events\index-2.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-events/?C=M;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-events\index-6.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-events/?C=N;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-events\index-5.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-events/?C=N;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-events\index-1.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-events/?C=S;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-events\index-3.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-events/?C=S;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-events\index-7.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-events/T01.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-events\T01.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-events/T02.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-events\T02.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-events/T03.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-events\T03.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-events/T04.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-events\T04.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-events/T05.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-events\T05.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-events/T06.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-events\T06.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\index.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/?C=D;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\index-4.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/?C=D;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\index-8.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/?C=M;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\index-2.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/?C=M;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\index-6.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/?C=N;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\index-5.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/?C=N;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\index-1.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/?C=S;O=A
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\index-3.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/?C=S;O=D
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\index-7.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW01.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW01.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW02.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW02.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW03.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW03.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW04.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW04.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW05.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW05.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW06.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW06.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW07.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW07.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW08.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW08.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW09.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW09.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW10.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW10.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW11.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW11.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW12.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW12.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW13.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW13.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW14.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW14.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW15.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW15.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW16.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW16.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW17.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW17.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW18.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW18.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW19.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW19.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW20.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW20.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW21.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW21.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW22.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW22.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/event/technical-workshop/TW23.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\event\technical-workshop\TW23.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/events/fine-arts.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\events\fine-arts.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/events/gaming.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\events\gaming.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/events/index.htm
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\events\index.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/events/informals.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\events\informals.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/events/literary-arts.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\events\literary-arts.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/events/management.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\events\management.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/events/performing-arts.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\events\performing-arts.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/events/special-events.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\events\special-events.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/events/sports.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\events\sports.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/events/technical-events.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\events\technical-events.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/events/technical-workshop.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\events\technical-workshop.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/events/technical-workshops.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\events\technical-workshops.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/events/technical.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\events\technical.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/gtag/js?id=G-1NGQRMP43J
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\gtag\js
+Content Type: 
+
+Uri: https://alegria.co.in/hackathon.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\hackathon.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/index.htm
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\index-1.htm
+Content Type: text/html
+
+Uri: https://alegria.co.in/jquery-1.7.1.min.js
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\jquery-1.7.1.min.js
+Content Type: application/javascript
+
+Uri: https://alegria.co.in/merchandise/Badges.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\merchandise\Badges.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/merchandise/Badges/M08.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\merchandise\Badges\M08.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/merchandise/Badges/M09.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\merchandise\Badges\M09.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/merchandise/Badges/M10.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\merchandise\Badges\M10.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/merchandise/Badges/M11.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\merchandise\Badges\M11.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/merchandise/Badges/M12.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\merchandise\Badges\M12.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/merchandise/Tshirts.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\merchandise\Tshirts.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/merchandise/Tshirts/M01.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\merchandise\Tshirts\M01.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/merchandise/Tshirts/M02.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\merchandise\Tshirts\M02.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/merchandise/Tshirts/M03.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\merchandise\Tshirts\M03.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/merchandise/Tshirts/M04.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\merchandise\Tshirts\M04.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/merchandise/Tshirts/M05.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\merchandise\Tshirts\M05.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/merchandise/Tshirts/M06.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\merchandise\Tshirts\M06.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/merchandise/Tshirts/M07.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\merchandise\Tshirts\M07.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/polls.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\polls.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/privacypolicy.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\privacypolicy.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/publictermsofservice.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\publictermsofservice.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/sponsors.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\sponsors.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/static/css/bootstrap.min.css
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://alegria.co.in/static/css/Buttons.css
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\css\Buttons.css
+Content Type: text/css
+
+Uri: https://alegria.co.in/static/css/main.css
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\css\main.css
+Content Type: text/css
+
+Uri: https://alegria.co.in/static/css/user.css
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\css\user.css
+Content Type: text/css
+
+Uri: https://alegria.co.in/static/font/Gilroy-Bold.ttf
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\font\Gilroy-Bold.ttf
+Content Type: font/ttf
+
+Uri: https://alegria.co.in/static/font/Gilroy-Medium.ttf
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\font\Gilroy-Medium.ttf
+Content Type: font/ttf
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/2013.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\2013.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/2014.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\2014.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/2015.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\2015.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/2016.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\2016.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/2017.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\2017.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/2018.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\2018.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/2019.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\2019.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/2020.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\2020.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/2021.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\2021.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/adah_sharma.PNG
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\adah_sharma.PNG
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/alegria21.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\alegria21.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/alegria_banner.JPG
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\alegria_banner.JPG
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/armaan.JPG
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\armaan.JPG
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/danish.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\danish.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/edm_night.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\edm_night.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/final21.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\final21.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/rap.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\rap.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/saundarya.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\saundarya.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/aboutus-ribbons/varunandshraddha.JPG
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\aboutus-ribbons\varunandshraddha.JPG
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/AlegriaLogo.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\AlegriaLogo.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/AppPromo.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\AppPromo.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/bassi.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\bassi.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/bg.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\bg.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/cards/BL.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\cards\BL.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/cards/bottom.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\cards\bottom.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/cards/BR.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\cards\BR.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/cards/TL.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\cards\TL.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/cards/top.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\cards\top.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/cards/TR.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\cards\TR.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/developer/Aditya.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\developer\Aditya.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/developer/Amit.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\developer\Amit.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/developer/Atharva.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\developer\Atharva.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/developer/Athul.jpeg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\developer\Athul.jpeg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/developer/Bhushan.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\developer\Bhushan.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/developer/Chandini.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\developer\Chandini.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/developer/Lina.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\developer\Lina.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/developer/Pranav.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\developer\Pranav.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/developer/Saket.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\developer\Saket.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/developer/Sanjana.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\developer\Sanjana.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/developer/Tanishq.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\developer\Tanishq.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/developer/Tomcy.JPG
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\developer\Tomcy.JPG
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/developer/yash.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\developer\yash.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/favicon.ico
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://alegria.co.in/static/images/hackathon/ai-icon-vector-23097736.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\hackathon\ai-icon-vector-23097736.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/hackathon/hackathon.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\hackathon\hackathon.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/hackathon/iot-vector-21463975.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\hackathon\iot-vector-21463975.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/hackathon/ps1.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\hackathon\ps1.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/hackathon/ps10.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\hackathon\ps10.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/hackathon/ps2.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\hackathon\ps2.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/hackathon/ps3.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\hackathon\ps3.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/hackathon/ps4.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\hackathon\ps4.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/hackathon/ps5.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\hackathon\ps5.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/hackathon/ps6.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\hackathon\ps6.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/hackathon/ps7.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\hackathon\ps7.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/hackathon/ps8.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\hackathon\ps8.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/hackathon/ps9.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\hackathon\ps9.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/hackathon/virtual-reality-icon.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\hackathon\virtual-reality-icon.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/hackathon/web-app.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\hackathon\web-app.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/homepage/anusha_dandekar-poster.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\homepage\anusha_dandekar-poster.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/homepage/arjun-poster.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\homepage\arjun-poster.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/homepage/bg.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\homepage\bg.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/homepage/chetna_pande-poster.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\homepage\chetna_pande-poster.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/homepage/land2.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\homepage\land2.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/homepage/mobile-poster.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\homepage\mobile-poster.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/homepage/monika_starling-poster.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\homepage\monika_starling-poster.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/homepage/mountains.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\homepage\mountains.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/homepage/priyank_sharma-poster.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\homepage\priyank_sharma-poster.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/homepage/shraddha_das-poster.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\homepage\shraddha_das-poster.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/homepage/suresh_mukund-poster.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\homepage\suresh_mukund-poster.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/homepage/vijaya_babar-poster.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\homepage\vijaya_babar-poster.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/homepage/WebsiteHeroImage.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\homepage\WebsiteHeroImage.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Category Icons/Fine Arts.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Category Icons\Fine Arts.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Category Icons/Gaming.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Category Icons\Gaming.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Category Icons/Informals.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Category Icons\Informals.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Category Icons/Literary Arts.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Category Icons\Literary Arts.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Category Icons/management.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Category Icons\management.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Category Icons/Performing Arts.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Category Icons\Performing Arts.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Category Icons/Sports.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Category Icons\Sports.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Category Icons/Tech.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Category Icons\Tech.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Category Icons/Technical_workshop.jpeg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Category Icons\Technical_workshop.jpeg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/icons/Fine Arts/Acrylic Tattoo Making.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Fine Arts\Acrylic Tattoo Making.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Fine Arts/Canvas Painting.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Fine Arts\Canvas Painting.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Fine Arts/Creative Makeup.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Fine Arts\Creative Makeup.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Fine Arts/Mandala Art.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Fine Arts\Mandala Art.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Fine Arts/Mehndi.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Fine Arts\Mehndi.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Fine Arts/Nail Art.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Fine Arts\Nail Art.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Fine Arts/Rangoli.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Fine Arts\Rangoli.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Fine Arts/Sketching.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Fine Arts\Sketching.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Gaming/BGMI.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Gaming\BGMI.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Gaming/c s go.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Gaming\c s go.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Gaming/Call of Duty.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Gaming\Call of Duty.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Gaming/FIFA 2022.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Gaming\FIFA 2022.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Gaming/LUDO KING.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Gaming\LUDO KING.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Gaming/rocket league.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Gaming\rocket league.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Gaming/valorant.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Gaming\valorant.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Group 56.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Group 56.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Group 57.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Group 57.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Group 58.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Group 58.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Group 59.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Group 59.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Informal/Face of Alegria.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Informal\Face of Alegria.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Informal/FashionShow.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Informal\FashionShow.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Informal/Mr and Ms Alegria.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Informal\Mr and Ms Alegria.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Informal/Photography.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Informal\Photography.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Informal/Reels.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Informal\Reels.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Informal/ShortFilm.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Informal\ShortFilm.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Literary Arts/blog.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Literary Arts\blog.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Literary Arts/Elocution.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Literary Arts\Elocution.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Literary Arts/English debate.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Literary Arts\English debate.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Literary Arts/poetry.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Literary Arts\poetry.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Literary Arts/Story Writing.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Literary Arts\Story Writing.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Literary Arts/Word box.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Literary Arts\Word box.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Management/AdMad.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Management\AdMad.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Management/BestManager.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Management\BestManager.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Management/BizQuiz.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Management\BizQuiz.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Management/SharkTank.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Management\SharkTank.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Management/WhatsTheBrand.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Management\WhatsTheBrand.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Performing Arts/classical Solo.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Performing Arts\classical Solo.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Performing Arts/Duet Dance.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Performing Arts\Duet Dance.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Performing Arts/Freestyle group.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Performing Arts\Freestyle group.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Performing Arts/FreestyleSolo.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Performing Arts\FreestyleSolo.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Performing Arts/Monoacting.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Performing Arts\Monoacting.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Performing Arts/RappingSolo.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Performing Arts\RappingSolo.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Performing Arts/SingingSolo.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Performing Arts\SingingSolo.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/playstore.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\playstore.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Sports/Air-Rifle-Shooting.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Sports\Air-Rifle-Shooting.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Sports/Badminton.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Sports\Badminton.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Sports/Blitz Chess.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Sports\Blitz Chess.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Sports/Box-Cricket.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Sports\Box-Cricket.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Sports/Carrom (2).png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Sports\Carrom (2).png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Sports/Chess.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Sports\Chess.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Sports/futsal.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Sports\futsal.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Sports/table-tennis.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Sports\table-tennis.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Events/Coding.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Events\Coding.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Events/Hackathon.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Events\Hackathon.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Events/Noescape.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Events\Noescape.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Events/Placement Treasure Hunt.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Events\Placement Treasure Hunt.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Events/Technical Paper Writing.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Events\Technical Paper Writing.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Events/Typing.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Events\Typing.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Workshop/3D Printing.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Workshop\3D Printing.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Workshop/Blockchain.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Workshop\Blockchain.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Workshop/Flask.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Workshop\Flask.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Workshop/Flutter.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Workshop\Flutter.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Workshop/Iot.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Workshop\Iot.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Workshop/Machine learning.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Workshop\Machine learning.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Workshop/Matlab.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Workshop\Matlab.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Workshop/python.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Workshop\python.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Workshop/Rasberry Pi.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Workshop\Rasberry Pi.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Workshop/ReactJS.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Workshop\ReactJS.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Workshop/TensorFlow.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Workshop\TensorFlow.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/icons/Technical Workshop/wordpress.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\icons\Technical Workshop\wordpress.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/left.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\left.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/login/conifer-suspicious-activity.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\login\conifer-suspicious-activity.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/login/logo-alegria.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\login\logo-alegria.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/login/svg-phone.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\login\svg-phone.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/login/svg-vertical.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\login\svg-vertical.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/login/user-login-img.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\login\user-login-img.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/right.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\right.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/sponsors/Aestus_supply (1).jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\Aestus_supply (1).jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/sponsors/Brew_house.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\Brew_house.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/sponsors/cg.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\cg.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/sponsors/chaatwich_1.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\chaatwich_1.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/sponsors/Elree.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\Elree.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/sponsors/fitness.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\fitness.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/sponsors/Foodstop_Logo-04.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\Foodstop_Logo-04.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/sponsors/Food_street.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\Food_street.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/sponsors/gatsby_logo.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\gatsby_logo.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/sponsors/Gracias_Granny_Logos_4.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\Gracias_Granny_Logos_4.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/sponsors/Hi_Rich.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\Hi_Rich.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/sponsors/HSM_School_%26_Hair_Makeup.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\HSM_School_&_Hair_Makeup.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/sponsors/ice_heaven.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\ice_heaven.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/sponsors/INSD.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\INSD.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/sponsors/malhari.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\malhari.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/sponsors/rk_resort.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\rk_resort.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/sponsors/sweet_fusion.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\sweet_fusion.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/sponsors/ZReaXStudios.png
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\sponsors\ZReaXStudios.png
+Content Type: image/png
+
+Uri: https://alegria.co.in/static/images/testimonials/0521_dhvani3-200x200.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\testimonials\0521_dhvani3-200x200.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/testimonials/alegria-ayushmann-khurrana-live-band-300x300.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\testimonials\alegria-ayushmann-khurrana-live-band-300x300.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/testimonials/armaan-malik-hits-7-million-instagram-followers-920x518-1-200x200.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\testimonials\armaan-malik-hits-7-million-instagram-followers-920x518-1-200x200.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/testimonials/Farhan-Akhtar-Live-concert-at-Pillai-College-fest-Alegria-2014-1-200x200.jpeg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\testimonials\Farhan-Akhtar-Live-concert-at-Pillai-College-fest-Alegria-2014-1-200x200.jpeg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/testimonials/Siddharth-Malhotra-and-Rakul-preet-Singh-at-alegria-rock-200x200.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\testimonials\Siddharth-Malhotra-and-Rakul-preet-Singh-at-alegria-rock-200x200.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/images/testimonials/sonam-1-200x200.jpg
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\images\testimonials\sonam-1-200x200.jpg
+Content Type: image/jpeg
+
+Uri: https://alegria.co.in/static/js/bootstrap.bundle.min.js
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://alegria.co.in/static/js/homepage.js
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\js\homepage.js
+Content Type: application/javascript
+
+Uri: https://alegria.co.in/static/js/loading.js
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\js\loading.js
+Content Type: application/javascript
+
+Uri: https://alegria.co.in/static/js/polls.js
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\static\js\polls.js
+Content Type: application/javascript
+
+Uri: https://alegria.co.in/user-login.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\user-login.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/user/quiz.html
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\user\quiz.html
+Content Type: text/html
+
+Uri: https://alegria.co.in/widgets.js
+File Name: C:\Users\Saket\Desktop\Saket\alegria.co.in\widgets.js
+Content Type: application/javascript
+

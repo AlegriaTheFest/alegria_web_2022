@@ -1,0 +1,1022 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script defer="" src="ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
+    <script defer="" src="ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script defer="" src="ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js" integrity="sha512-5/OHwmQzDSBS0Ous4/hlYoWLHd06/d2r7LdKZQVBXOA6PvOqWVXtdboiLTU7lQTGyVoKVTNkwi0ol4gHGlw5ww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer="" src="static/js/homepage.js"></script>
+    <script defer="" src="static/js/loading.js"></script>
+
+
+    <!-- bootstrap -->
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="static/css/user.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/Buttons.css">
+
+    <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
+
+    <!-- js -->
+    <script defer="" src="static/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="gtag/js?id=G-1NGQRMP43J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1NGQRMP43J');
+    </script>
+
+    <title> Alegria 2022 | Homepage </title>
+</head>
+
+
+
+<body class="loader-body position-relative" style="overflow-x: hidden;">
+    <div class="loading-bg">
+    </div>
+    <div class="loader-div d-flex flex-column justify-content-center align-items-center">
+        <!-- <div class="loader d-flex flex-column align-items-center">
+            <video width="400" height="500" loop autoplay>
+                <source src="../static/files/loader.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div> -->
+        <div class="d-flex flex-column align-items-center">
+            <img src="static/images/AlegriaLogo.png" alt="alegria-logo" id="loader-logo" height="150px">
+            <div class="loader d-flex align-items-center justify-content-center px-3 sec-font fs-1 my-2">
+                <p id="loader-l">L</p>
+                <p id="loader-o">o</p>
+                <p id="loader-a">a</p>
+                <p id="loader-d">d</p>
+                <p id="loader-i">i</p>
+                <p id="loader-n">n</p>
+                <p id="loader-g">g</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- nav -->
+    <nav class="w-100 navbar navbar-expand-lg navbar-light p-2 py-3 parallax_navbar stroke">
+        <div class="container-fluid">
+            <a href="index-1.htm">
+                <img src="static/images/AlegriaLogo.png" alt="alegria logo" class="alegria-logo">
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-red" width="32px" height="32px" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="ms-2 navbar-nav me-auto mt-1 mb-2 mb-lg-0 sec-font fw-bold gy-3">
+                    <li class="nav-item">
+                        <a href="index-1.htm" class='navbar_links' style='color: #b83818;font-weight: bolder;'>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Events</a>
+                        <ul class="dropdown-menu border-0" style="background-color: #ffd04f;" aria-labelledby="dropdownMenuButton1">
+                            <li>
+                                <a class="dropdown-item navbar_links" href="events/informals.html">Informals</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item navbar_links" href="events/fine-arts.html">Fine
+                                    Arts</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item navbar_links" href="events/performing-arts.html">Performing
+                                    Arts</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item navbar_links" href="events/gaming.html">Gaming</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item navbar_links" href="events/sports.html">Sports</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item navbar_links" href="events/literary-arts.html">Literary
+                                    Arts</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item navbar_links" href="events/technical-events.html">Technical
+                                    Events</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item navbar_links" href="events/technical-workshop.html">Technical
+                                    Workshops</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item navbar_links" href="events/management.html">Management
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item navbar_links" href="events/index.htm">All
+                                    Events
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Merchandise</a>
+                        <ul class="dropdown-menu border-0" style="background-color: #ffd04f;" aria-labelledby="dropdownMenuButton1">
+                            <li>
+                                <a class="dropdown-item navbar_links" href="merchandise/Tshirts.html">Tshirts</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item navbar_links" href="merchandise/Badges.html">Badges</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="announcements.html?filter=None" class='navbar_links'>Announcements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#artists" class='navbar_links'>Artists</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                        <ul class="dropdown-menu border-0" style="background-color: #ffd04f;" aria-labelledby="dropdownMenuButton2">
+                            <li>
+                                <a href="about-us.html" class="dropdown-item navbar_links">About
+                                    Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="app-download.html" class='dropdown-item navbar_links'>
+                                    Alegria App 2022
+                                </a>
+                            </li>
+                            <li>
+                                <a href="hackathon.html" class="dropdown-item navbar_links">Hackathon
+                                </a>
+                            </li>
+                            <li>
+                                <a href="polls.html" class="dropdown-item navbar_links">Polls</a>
+                            </li>
+                            <li>
+                                <a href="user/quiz.html" class="dropdown-item navbar_links">Quiz</a>
+                            </li>
+                            <li>
+                                <a href="https://pillaialegria.wordpress.com/" target="_blank" rel="noopener noreferrer" class="dropdown-item navbar_links">Blogs</a>
+                            </li>
+                            <li>
+                                <a href="EBrochure2022.pdf" class="dropdown-item navbar_links">EBrochure
+                                    2022</a>
+                            </li>
+                            <li>
+                                <a href="sponsors.html" class="dropdown-item navbar_links">Sponsors</a>
+                            </li>
+                            <li>
+                                <a href="developers.html" class="dropdown-item navbar_links">Developers</a>
+                            </li>
+                            <li>
+                                <a href="event-heads.html" class="dropdown-item navbar_links">Event
+                                    Heads</a>
+                            </li>
+                            <li>
+                                <a href="privacypolicy.html" class="dropdown-item navbar_links">Privacy
+                                    Policy</a>
+                            </li>
+                            <li>
+                                <a href="publictermsofservice.html" class="dropdown-item navbar_links">Terms and
+                                    Conditions</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+                <button class="normal-button d-flex justify-content-center align-items-center fs-7 rounded-3 py-2 px-4">
+                    <a href="user-login.html" class="d-flex">
+                        <p class="my-0 me-2 main-font">
+                            Sign In
+                        </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewbox="0 0 24 24" stroke="currentColor" class="text-light ms-1" width="24px" height="24px">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z">
+                            </path>
+                        </svg>
+                    </a>
+                </button>
+            </div>
+
+
+
+
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- hero alert -->
+    <!-- <div class="hero_alert_div">
+        <ul class="hero_ul">
+            
+            
+            <li class="hero_alert text-black sec-font d-flex flex-column my-2" data-id=1>
+                <div class="d-flex justify-content-end">
+                    <button class="up-button p-0 fs-5" id="hero_alert-close-btn" data-id=1>
+                        <i class="fa-solid fa-xmark text-white"></i>
+                    </button>
+                </div>
+                <div class="col d-flex justify-content-center align-items-center">
+                    <div id="carouselExampleIndicators2" class="carousel slide py-2" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner p-3">
+                            <div class="carousel-item active">
+                                <div class="col d-flex flex-column align-items-center my-2">
+                                    <img src="/static/images/homepage/mobile-poster.jpg" class="poster-image mb-4"
+                                        alt="...">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col d-flex flex-column align-items-center my-2">
+                                    <img src="/static/images/homepage/mobile-poster.jpg" class="poster-image mb-4"
+                                        alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon bg-brown rounded-3" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon bg-brown rounded-3" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            
+            
+        </ul>
+    </div> -->
+
+    <div class="parallax_section">
+        <!-- theme banner -->
+        <section class="parallax-container">
+            <!-- main logo -->
+            <img class="parallax_images bg" src="static/images/homepage/bg.png" alt="parallax image">
+            <img class="parallax_images mountains" src="static/images/homepage/mountains.png" alt="parallax mountain image">
+            <img src="static/images/homepage/land2.png" class="parallax_images land" alt="parallax land image" style="bottom: 0%;">
+            <img class="parallax_title title" src="static/images/homepage/WebsiteHeroImage.png" alt="Alegria logo">
+        </section>
+
+        <!-- about alegria 2022 -->
+        <div class="about_us" style="overflow-x: hidden;width: 100%;">
+            <!-- <section
+                class="w-100 py-5 overflow-hidden position-relative d-flex align-items-center justify-content-center min-vh-100">
+                <div class="row p-3 d-flex justify-content-center align-items-center">
+                    <div class="about_img col-lg-5 col-sm-12 d-flex justify-content-center"
+                        style="border-radius: 20px;">
+                        <img src="../static/images/homepage/about.jpg" alt="about us image"
+                            class="aboutus_bg p-2 shadow" id="about-us-img" width="80%" height="60%"
+                            style="border-radius: 30px;">
+                    </div>
+                    <div
+                        class="about_text col-lg-7 col-sm-12 d-flex flex-column align-items-center justify-content-center px-3">
+                        <h2 class="fs-3 main-font my-2 text-beige text-center">ALEGRIA 2022</h2>
+
+                        <p class="m-1 mx-2 sec-font fs-7 fst-light" style="text-align: justify;">
+                            Alegria - The Festival joy congregated by The Pillai Group Of Institutions. Alegria is one
+                            of the most phenomenal intercollegiate festivals of its kind. It is held in February every
+                            year with a mob of more than 50,000 1to witness the flow of immense talent
+                            in the events. With fun and joy this event also escorts the presence of splendid talent and
+                            star celebrities. This festival continues to add a pack of memories to everyone's life with
+                            each passing year and the dedicated team
+                            of students and faculty always hold its back to add on to the astonishing experience. Be it
+                            the unique themes like the “Light The Night” from last year or the astounding performances,
+                            they never fail to amaze us.
+                        </p>
+                        <button class="up-button mt-3" style="background-color: #bd2828;">
+                            <a href="/about-us" class="sec-font text-light fs-6">
+                                Read More
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </section> -->
+            <!-- events -->
+            <section class="min-vh-100 overflow-hidden d-flex flex-column align-items-center justify-content-center" style="overflow-x: hidden;width: 100%;">
+                <div class="row p-1 w-100 d-flex flex-column justify-content-center pb-4" id="events-section">
+                    <div class="col-sm-12 d-flex justify-content-center text-center">
+                        <h2 class="fs-1 main-font">
+                            EVENTS
+                        </h2>
+                    </div>
+                    <div class="col-12 p-0">
+                        <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+                            <div class="carousel-inner p-4">
+                                <div class="carousel-item active">
+                                    <div class="row row-cols-lg-3 row-cols-md-1 g-4">
+
+                                        <div class="col d-flex flex-column align-items-center event-card-container">
+                                            <div class="event-card">
+                                                <div class="event-card-front">
+                                                    <h3 class="fs-5 main-font text-red py-1 px-2">
+                                                        Technical Events
+                                                    </h3>
+                                                    <div class="event-circle">
+                                                        <img src="static/images/icons/Category%20Icons/Tech.png" alt="card-image" width="170px" height="170px">
+                                                    </div>
+                                                </div>
+                                                <div class="event-card-back">
+                                                    <p class="sec-font fs-6">
+                                                        Here is your opportunity to showcase your technical skills and
+                                                        get a chance to win in our technical events
+                                                    </p>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="events/technical-events.html" class=" w-100 text-center sec-font text-light fs-7 py-1 px-3 rounded-3 shadow" style="background-color: #bd2828;">
+                                                            View
+                                                            All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col d-flex flex-column align-items-center event-card-container">
+                                            <div class="event-card">
+                                                <div class="event-card-front">
+                                                    <h3 class="fs-5 main-font text-red py-1 px-2">
+                                                        Technical Workshop
+                                                    </h3>
+                                                    <div class="event-circle">
+                                                        <img src="static/images/icons/Category%20Icons/Technical_workshop.jpeg" alt="card-image" width="170px" height="170px">
+                                                    </div>
+                                                </div>
+                                                <div class="event-card-back">
+                                                    <p class="sec-font fs-6">
+                                                        Come here and get a chance to explore and learn new technical
+                                                        skills at a reasonable price in our technical workshops.
+                                                    </p>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="events/technical-workshops.html" class=" w-100 text-center sec-font text-light fs-7 py-1 px-3 rounded-3 shadow" style="background-color: #bd2828;">
+                                                            View
+                                                            All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col d-flex flex-column align-items-center event-card-container">
+                                            <div class="event-card">
+                                                <div class="event-card-front">
+                                                    <h3 class="fs-5 main-font text-red py-1 px-2">
+                                                        Management
+                                                    </h3>
+                                                    <div class="event-circle">
+                                                        <img src="static/images/icons/Category%20Icons/management.png" alt="card-image" width="170px" height="170px">
+                                                    </div>
+                                                </div>
+                                                <div class="event-card-back">
+                                                    <p class="sec-font fs-6">
+                                                        The masterminds behind a successful company or event is the
+                                                        proper management, here is an opportunity awaiting for you in
+                                                        the form of management competitions
+                                                    </p>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="events/management.html" class=" w-100 text-center sec-font text-light fs-7 py-1 px-3 rounded-3 shadow" style="background-color: #bd2828;">
+                                                            View
+                                                            All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row row-cols-lg-3 row-cols-md-1 g-4">
+
+                                        <div class="col d-flex flex-column align-items-center event-card-container">
+                                            <div class="event-card">
+                                                <div class="event-card-front">
+                                                    <h3 class="fs-5 text-red main-font py-1 px-2">
+                                                        Fine Arts
+                                                    </h3>
+                                                    <div class="event-circle">
+                                                        <img src="static/images/icons/Category%20Icons/Fine%20Arts.png" alt="card-image" width="170px" height="170px">
+                                                    </div>
+                                                </div>
+                                                <div class="event-card-back">
+                                                    <p class="sec-font fs-6">
+                                                        Creative strokes, dripping colours and creative mind is more
+                                                        than enough for the artist within you to express his talent, so
+                                                        come and grab this opportunity to flaunt your art .
+                                                    </p>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="events/fine-arts.html" class="w-100 text-center sec-font text-light fs-7 py-1 px-3 rounded-3 shadow" style="background-color: #bd2828;">
+                                                            View
+                                                            All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col d-flex flex-column align-items-center event-card-container">
+                                            <div class="event-card">
+                                                <div class="event-card-front">
+                                                    <h3 class="fs-5 text-red main-font py-1 px-2">
+                                                        Performing Arts
+                                                    </h3>
+                                                    <div class="event-circle">
+                                                        <img src="static/images/icons/Category%20Icons/Performing%20Arts.png" alt="card-image" width="170px" height="170px">
+                                                    </div>
+                                                </div>
+                                                <div class="event-card-back">
+                                                    <p class="sec-font fs-6">
+                                                        Representing the true beauty of talent, we provide a way to
+                                                        display your amazing dancing, singing and acting skills in our
+                                                        intriguing events
+                                                    </p>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="events/performing-arts.html" class="w-100 text-center sec-font text-light fs-7 py-1 px-3 rounded-3 shadow" style="background-color: #bd2828;">
+                                                            View
+                                                            All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col d-flex flex-column align-items-center event-card-container">
+                                            <div class="event-card">
+                                                <div class="event-card-front">
+                                                    <h3 class="fs-5 text-red main-font py-1 px-2">
+                                                        Literary Arts
+                                                    </h3>
+                                                    <div class="event-circle">
+                                                        <img src="static/images/icons/Category%20Icons/Literary%20Arts.png" alt="card-image" width="170px" height="170px">
+                                                    </div>
+                                                </div>
+                                                <div class="event-card-back">
+                                                    <p class="sec-font fs-6">
+                                                        If you have the creativity to express feelings through words
+                                                        then we have a platform for you to come and participate.
+                                                    </p>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="events/literary-arts.html" class="w-100 text-center sec-font text-light fs-7 py-1 px-3 rounded-3 shadow" style="background-color: #bd2828;">
+                                                            View
+                                                            All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row row-cols-lg-3 row-cols-md-1 g-4">
+
+                                        <div class="col d-flex flex-column align-items-center event-card-container">
+                                            <div class="event-card">
+                                                <div class="event-card-front">
+                                                    <h3 class="fs-5 text-red main-font py-1 px-2">
+                                                        Informals
+                                                    </h3>
+                                                    <div class="event-circle">
+                                                        <img src="static/images/icons/Category%20Icons/Informals.png" alt="card-image" width="170px" height="170px">
+                                                    </div>
+                                                </div>
+                                                <div class="event-card-back">
+                                                    <p class="sec-font fs-6">
+                                                        Informals events are one&#39;s chance to change the definition
+                                                        of beauty through your immense inside talent by taking part in
+                                                        different informals events.
+                                                    </p>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="events/informals.html" class="w-100 text-center sec-font text-light fs-7 py-1 px-3 rounded-3 shadow" style="background-color: #bd2828;">
+                                                            View
+                                                            All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col d-flex flex-column align-items-center event-card-container">
+                                            <div class="event-card">
+                                                <div class="event-card-front">
+                                                    <h3 class="fs-5 text-red main-font py-1 px-2">
+                                                        Gaming
+                                                    </h3>
+                                                    <div class="event-circle">
+                                                        <img src="static/images/icons/Category%20Icons/Gaming.png" alt="card-image" width="170px" height="170px">
+                                                    </div>
+                                                </div>
+                                                <div class="event-card-back">
+                                                    <p class="sec-font fs-6">
+                                                        If you are fond of crazy and adventure games then come and get a
+                                                        chance to showcase your talent and win.
+                                                    </p>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="events/gaming.html" class="w-100 text-center sec-font text-light fs-7 py-1 px-3 rounded-3 shadow" style="background-color: #bd2828;">
+                                                            View
+                                                            All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col d-flex flex-column align-items-center event-card-container">
+                                            <div class="event-card">
+                                                <div class="event-card-front">
+                                                    <h3 class="fs-5 text-red main-font py-1 px-2">
+                                                        Sports
+                                                    </h3>
+                                                    <div class="event-circle">
+                                                        <img src="static/images/icons/Category%20Icons/Sports.png" alt="card-image" width="170px" height="170px">
+                                                    </div>
+                                                </div>
+                                                <div class="event-card-back">
+                                                    <p class="sec-font fs-6">
+                                                        Sports is all about the spirit and sportsmanship of the player
+                                                        so if you posses the true spirit of sports then you stand a
+                                                        chance to win by taking part in our sports events.
+                                                    </p>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="events/sports.html" class="w-100 text-center sec-font text-light fs-7 py-1 px-3 rounded-3 shadow" style="background-color: #bd2828;">
+                                                            View
+                                                            All
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon bg-brown px-2" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon bg-brown px-2" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="homepage-gap main-bg"></div>
+
+    <div class="poster-extra-div"></div>
+    <div class="poster-extra-div"></div>
+
+    <a name="artists"></a>
+    <section class="main-bg overflow-hidden" style="overflow-x: hidden;">
+        <div class="row d-flex justify-content-center text-center">
+            <h2 class="fs-1 main-font text-red">
+                ARTISTS
+            </h2>
+        </div>
+        <div class="row d-flex justify-content-center text-center">
+            <div class="col-12">
+                <p class="fs-6 sec-font text-black mb-0">
+                    For passes please contact
+                </p>
+            </div>
+            <div class="row mb-2 fs-6 text-red d-flex justify-content-center">
+                <div class="col-lg-auto col-sm-12 text-center">
+                    <a href="tel:+918652323878" class="text-red">+91 8652323878</a>
+                </div>
+                <div class="col-lg-auto col-sm-12 text-center">
+                    <a href="tel:+918097261674" class="text-red">+91 8097261674</a>
+                </div>
+            </div>
+        </div>
+        <div class="row h-100 d-flex justify-content-center align-items-center py-3 px-2 g-3 mb-3">
+            <div id="carouselExampleControls3" class="carousel slide py-2" data-bs-ride="carousel">
+                <div class="carousel-inner py-3">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-lg-2 row-cols-sm-1 gy-3">
+                            <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+                                <a href="artists/a1.html" class="artist_card">
+                                    <img src="static/images/homepage/mobile-poster.jpg" class="artist_card-img" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+                                <a href="artists/a2.html" class="artist_card">
+                                    <img src="static/images/homepage/arjun-poster.jpg" class="artist_card-img" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-lg-2 row-cols-sm-1 gy-3">
+                            <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+                                <a href="artists/a4.html" class="artist_card">
+                                    <img src="static/images/homepage/anusha_dandekar-poster.jpg" class="artist_card-img" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+                                <a href="artists/a3.html" class="artist_card">
+                                    <img src="static/images/homepage/shraddha_das-poster.jpg" class="artist_card-img" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-lg-2 row-cols-sm-1 gy-3">
+                            <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+                                <a href="artists/a5.html" class="artist_card">
+                                    <img src="static/images/homepage/suresh_mukund-poster.jpg" class="artist_card-img" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+                                <a href="artists/a6.html" class="artist_card">
+                                    <img src="static/images/homepage/chetna_pande-poster.jpg" class="artist_card-img" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-lg-2 row-cols-sm-1 gy-3">
+                            <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+                                <a href="artists/a7.html" class="artist_card">
+                                    <img src="static/images/homepage/priyank_sharma-poster.png" class="artist_card-img" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+                                <a href="artists/a8.html" class="artist_card">
+                                    <img src="static/images/homepage/vijaya_babar-poster.png" class="artist_card-img" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row row-cols-lg-2 row-cols-sm-1 gy-3">
+                            <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+                                <a href="artists/a9.html" class="artist_card">
+                                    <img src="static/images/homepage/monika_starling-poster.jpg" class="artist_card-img" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 d-flex justify-content-center">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-red rounded-3" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-red rounded-3" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center py-2">
+            <div class="col-10 d-flex justify-content-center">
+                <iframe class="iframe_style" src="https://www.youtube.com/embed/ffJFB7Eu3g4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <!-- gallery -->
+    <section class="main-bg homepage_section main-bg position-relative overflow-hidden pb-4" id="gallery" style="overflow-x: hidden;">
+        <div class="row py-3 px-2 min-vh-100 d-flex justify-content-center align-items-center">
+            <div class="row text-center">
+                <h2 class="text-red main-font fs-1">GALLERY</h2>
+            </div>
+            <div class="row">
+                <div class="col d-flex flex-column align-items-center">
+                    <div class="gallery">
+                        <div class="img">
+                            <img class="gallery-image" src="https://alegria.co.in/wp-content/uploads/2020/01/51369870_228660374753455_1411332535976243582_n.jpg" loading="lazy">
+                        </div>
+                        <div class="img">
+                            <img id="gallery-image1" src="https://alegria.co.in/wp-content/uploads/2020/01/52755297_328798327767661_3478363029250924476_n.jpg" loading="lazy">
+
+                        </div>
+                        <div class="img">
+                            <img class="gallery-image" src="https://alegria.co.in/wp-content/uploads/2020/01/16906853_1214014375319442_3286638850415263744_n.jpg" loading="lazy">
+                        </div>
+                        <div class="img">
+                            <img class="gallery-image" src="https://alegria.co.in/wp-content/uploads/2020/01/22708643_120917241938576_3320806380406833152_n.jpg" loading="lazy">
+                        </div>
+                        <div class="img">
+                            <img class="gallery-image" src="https://alegria.co.in/wp-content/uploads/2020/01/11165090_466491726835701_1457314546938452658_o.jpg" loading="lazy">
+                        </div>
+                        <div class="img">
+                            <img class="gallery-image" src="https://alegria.co.in/wp-content/uploads/2020/02/201225_211189352365941_1832788236_o.jpg" loading="lazy">
+                        </div>
+                        <div class="img">
+                            <img class="gallery-image" src="https://alegria.co.in/wp-content/uploads/2020/02/886933_166332770184933_1598087417_o.jpg" loading="lazy">
+                        </div>
+                        <div class="img">
+                            <img class="gallery-image" src="https://alegria.co.in/wp-content/uploads/2020/01/54800736_124147688716617_7738250650258373737_n.jpg" loading="lazy">
+                        </div>
+                        <div class="img">
+                            <img src="https://alegria.co.in/wp-content/uploads/2020/01/27581525_1964397220480815_5794201960827584512_n.jpg" alt="" class="gallery-image" loading="lazy">
+                        </div>
+                        <div class="img">
+                            <img class="gallery-image" src="https://alegria.co.in/wp-content/uploads/2020/01/40669850_230752934287684_2203215946495110325_n.jpg" loading="lazy">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="main-bg min-vh-100 position-relative overflow-hidden py-3" style="overflow-x: hidden;">
+        <div class="row text-center mb-1">
+            <h2 class="text-red main-font fs-1">TESTIMONIALS.</h2>
+        </div>
+        <div class="row h-100 d-flex justify-content-center align-items-center">
+            <div class="col h-100 d-flex justify-content-center align-items-center">
+                <div id="carouselExampleIndicators" class="carousel slide py-2 testimonial-carousel" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button bg-brown" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    </div>
+                    <div class="carousel-inner p-3">
+                        <div class="carousel-item active">
+                            <div class="col d-flex flex-column align-items-center my-2">
+                                <div class="w-100 rounded-3 testimonial-card p-3">
+                                    <!-- artist image -->
+                                    <img src="static/images/testimonials/armaan-malik-hits-7-million-instagram-followers-920x518-1-200x200.jpg" class="my-2 mb-3 testimonial-circle" alt="testimonial image" loading="lazy">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <!-- artist review -->
+                                        <p class="fs-6 text-black sec-font text-center">
+                                            Thank you @PillaiAlegria for such a beautiful night.
+                                        </p>
+                                        <h5 class="fs-7 text-red main-font mb-1">Armaan Malik</h5>
+                                        <p class="fs-7 text-black sec-font mb-1">Singer</p>
+                                        <p class="fs-7 text-black sec-font mb-1">2020</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col d-flex flex-column align-items-center my-2">
+                                <div class="h-100 w-100 d-flex flex-column align-items-center rounded-3 testimonial-card p-3">
+                                    <!-- artist image -->
+                                    <img src="static/images/testimonials/0521_dhvani3-200x200.jpg" class="my-2 mb-3 testimonial-circle" alt="testimonial image" loading="lazy">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <!-- artist review -->
+                                        <p class="fs-6 text-black sec-font text-center">
+                                            Had a blast performing @PillaiAlegria. You guys had such insane energy.
+                                            Thankyou @PillaiAlegria for giving me a chance to perform at Alegria.
+                                            Sending all love back to you guys.
+                                        </p>
+                                        <h5 class="fs-7 text-red main-font mb-1">Dhvani Bhanushali</h5>
+                                        <p class="fs-7 text-black sec-font mb-1">Singer</p>
+                                        <p class="fs-7 text-black sec-font mb-1">2020</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col d-flex flex-column align-items-center my-2">
+                                <div class="h-100 w-100 rounded-3 testimonial-card p-3">
+                                    <!-- artist image -->
+                                    <img src="static/images/testimonials/Farhan-Akhtar-Live-concert-at-Pillai-College-fest-Alegria-2014-1-200x200.jpeg" class="my-2 mb-3 testimonial-circle" alt="testimonial image" loading="lazy">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <!-- artist review -->
+                                        <p class="fs-6 text-black sec-font text-center">
+                                            To all at @PillaiAlegria thank you for having us over and all the best for
+                                            all to come. Love and Respect
+                                        </p>
+                                        <h5 class="fs-7 text-red main-font mb-1">Farhan Akhtar</h5>
+                                        <p class="fs-7 text-black sec-font mb-1">Actor | Singer</p>
+                                        <p class="fs-7 text-black sec-font mb-1">2018</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col d-flex flex-column align-items-center my-2">
+                                <div class="h-100 w-100 rounded-3 testimonial-card p-3">
+                                    <!-- artist image -->
+                                    <img src="static/images/testimonials/sonam-1-200x200.jpg" class="my-2 mb-3 testimonial-circle" alt="testimonial image" loading="lazy">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <!-- artist review -->
+                                        <p class="fs-6 text-black sec-font text-center">
+                                            It's been amazing. Loved the campus and energy. Tons of love.
+                                        </p>
+                                        <h5 class="fs-7 text-red main-font mb-1">Sonam Kapoor Ahuja</h5>
+                                        <p class="fs-7 text-black sec-font mb-1">Actor</p>
+                                        <p class="fs-7 text-black sec-font mb-1">2018</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col d-flex flex-column align-items-center my-2">
+                                <div class="h-100 w-100 rounded-3 testimonial-card p-3">
+                                    <!-- artist image -->
+                                    <img src="static/images/testimonials/Siddharth-Malhotra-and-Rakul-preet-Singh-at-alegria-rock-200x200.jpg" class="my-2 mb-3 testimonial-circle" alt="testimonial image" loading="lazy">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <!-- artist review -->
+                                        <p class="fs-6 text-black sec-font text-center">
+                                            Thank you for all the love. Big love and respect !!
+                                        </p>
+                                        <h5 class="fs-7 text-red main-font  mb-1">Sidharth Malhotra</h5>
+                                        <p class="fs-7 text-black sec-font mb-1">Actor</p>
+                                        <p class="fs-7 text-black sec-font mb-1">2017</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col d-flex flex-column align-items-center my-2">
+                                <div class="h-100 w-100 rounded-3 testimonial-card p-3">
+                                    <!-- artist image -->
+                                    <img src="static/images/testimonials/alegria-ayushmann-khurrana-live-band-300x300.jpg" class="my-2 mb-3 testimonial-circle" alt="testimonial image" loading="lazy">
+                                    <div class="d-flex flex-column align-items-center">
+                                        <!-- artist review -->
+                                        <p class="fs-6 text-black sec-font text-center">
+                                            What a sight and what a night! . @PillaiAlegria you were a delight!!!
+                                        </p>
+                                        <h5 class="fs-7 text-red main-font mb-1">Ayushmaan khurrana</h5>
+                                        <p class="fs-7 text-black sec-font mb-1">Actor | Singer</p>
+                                        <p class="fs-7 text-black sec-font mb-1">2016</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-brown rounded-3" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-brown rounded-3" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="d-flex flex-column px-2 overflow-hidden u-text-beige" style="background-color: #272626;">
+        <div class="row d-flex justify-content-center g-4 p-4 pt-5">
+            <div class="col-lg-3 col-sm-6">
+                <p class="footer_link">Here's how you can reach us</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.6693193422207!2d73.12548141390256!3d18.990206059600766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e866de88667f%3A0xc1c5d5badc610f5f!2sPillai%20College%20of%20Engineering%2C%20New%20Panvel!5e0!3m2!1sen!2sin!4v1639657181713!5m2!1sen!2sin" width="220" height="150" style="border:0;" allowfullscreen="true" loading="lazy" class="rounded-3"></iframe>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <li>
+                    <a href="events/fine-arts.html" class="footer_link mb-1">
+                        Fine Arts
+                    </a>
+                </li>
+                <li>
+                    <a href="events/gaming.html" class="footer_link mb-1">
+                        Gaming
+                    </a>
+                </li>
+                <li>
+                    <a href="events/informals.html" class="footer_link mb-1">
+                        Informals
+                    </a>
+                </li>
+                <li>
+                    <a href="events/literary-arts.html" class="footer_link mb-1">
+                        Literary Arts
+                    </a>
+                </li>
+                <li>
+                    <a href="events/management.html" class="footer_link mb-1">
+                        Management
+                    </a>
+                </li>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <li>
+                    <a href="event/technical-events/index.htm" class="footer_link mb-1">
+                        Technical Events
+                    </a>
+                </li>
+                <li>
+                    <a href="events/technical-workshop.html" class="footer_link mb-1">
+                        Technical Workshops
+                    </a>
+                </li>
+                <li>
+                    <a href="events/performing-arts.html" class="footer_link mb-1">
+                        Performing Arts
+                    </a>
+                </li>
+                <li>
+                    <a href="events/sports.html" class="footer_link mb-1">
+                        Sports
+                    </a>
+                </li>
+                <li>
+                    <a href="events/special-events.html" class="footer_link mb-1">
+                        Special Events
+                    </a>
+                </li>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <li>
+                    <a href="index-1.htm" class="footer_link mb-1">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="user-login.html" class="footer_link mb-1">
+                        Login
+                    </a>
+                </li>
+                <li>
+                    <a href="hackathon.html" class="footer_link mb-1">
+                        Hackathon
+                    </a>
+                </li>
+                <li>
+                    <a href="merchandise/Tshirts.html" class="footer_link mb-1">
+                        Merchandise Tshirts
+                    </a>
+                </li>
+                <li>
+                    <a href="developers.html" class="footer_link mb-1">
+                        Developers
+                    </a>
+                </li>
+                <li class="my-1">
+                    <a href="https://play.google.com/store/apps/details?id=com.mes.alegria" target="_blank" rel="noopener noreferrer" class="px-3 py-1 d-flex align-items-center rounded-3 text-light" style="background-color: black;width: 60%;height: 60%;">
+                        <img src="static/images/icons/playstore.png" alt="playstore icon" class="me-1">
+                        <p class="sec-font mb-0" style="font-size: 0.7rem;">
+                            <span>
+                                Get It On
+                            </span>
+                            <br>
+                            <span>
+                                Google Play
+                            </span>
+                        </p>
+                    </a>
+                </li>
+            </div>
+        </div>
+        <div class="row g-2 py-2" style="background-color: #242121;">
+            <div class="col-md-4 col-sm-12">
+                <p class="footer_link mb-1 text-center">Copyright 2022 Alegria</p>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="d-flex justify-content-center align-items-center">
+                    <a href="https://www.instagram.com/pillaisalegria/" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                        <i class="fab fa-instagram fs-5"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCfqP3NEaaXPsgHn8QX3qilw" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                        <i class="fab fa-youtube fs-5"></i>
+                    </a>
+                    <a href="https://www.facebook.com/pillaisalegria" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                        <i class="fab fa-facebook-square fs-5"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <p class="footer_link mb-1 text-center">Powered by Alegria</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+</html>

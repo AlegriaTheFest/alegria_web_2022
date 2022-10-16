@@ -1,0 +1,613 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<script src="../../static/js/loading.js"></script>
+
+
+<style>
+    .size {
+        display: block;
+        position: relative;
+        width: 3rem;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+    .size input {
+        display: none;
+    }
+
+    .size span {
+        background-color: #feffd5;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        overflow: hidden;
+        text-align: center;
+        border-radius: 100%;
+        left: 0;
+        top: 50%;
+        margin-top: -8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .size input:hover+span {
+        background-color: brown;
+        color: white;
+    }
+
+    .size input:checked+span {
+        background: rgb(75, 17, 17);
+        color: white;
+        border-color: #ccf;
+    }
+
+    .color-radio {
+        padding: 5px;
+        border-radius: 50px;
+        border: 2px solid transparent;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .color-radio input {
+        display: none;
+    }
+
+    .checkmark {
+        position: relative;
+        display: inline-block;
+        top: 3px;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        background-color: #ccc;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .color-radio:hover {
+        cursor: pointer;
+        background-color: #feffd5;
+        border: 2px solid brown;
+    }
+
+    .color-radio:hover input~.checkmark {
+        background-color: brown;
+    }
+
+    .color-radio input:checked~.checkmark {
+        background-color: rgb(75, 17, 17);
+    }
+
+    .color-radio input:checked~.checkmark:after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .merchandise-card-container {
+        height: auto;
+        border: 3px solid brown;
+        padding: 10px 10px 0 10px;
+        border-radius: 10px;
+    }
+
+    .merchandise-card-container img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .section-border {
+        border-right: 1px solid black;
+    }
+
+    @media screen and (max-width:768px) {
+        .section-border {
+            border: none;
+        }
+    }
+</style>
+ 
+
+    <!-- bootstrap -->
+    <!-- css -->
+    <link rel="stylesheet" href="../../static/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../../static/css/user.css">
+    <link rel="stylesheet" href="../../static/css/main.css">
+    <link rel="stylesheet" href="../../static/css/Buttons.css">
+
+    <link rel="shortcut icon" href="../static/images/favicon.ico" type="image/x-icon">
+
+    <!-- js -->
+    <script defer="" src="../../static/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../../jquery-1.7.1.min.js"></script>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="../../ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="../../gtag/js?id=G-1NGQRMP43J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1NGQRMP43J');
+    </script>
+
+    <title> Alegria 2022 | Dreamland Unicorn  </title>
+</head>
+
+
+
+<body class="loader-body">
+    <div class="loading-bg">
+    </div>
+    <div class="loader-div d-flex flex-column justify-content-center align-items-center">
+        <!-- <div class="loader d-flex flex-column align-items-center">
+            <video width="400" height="500" loop autoplay>
+                <source src="../static/files/loader.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div> -->
+        <div class="d-flex flex-column align-items-center">
+            <img src="../../static/images/AlegriaLogo.png" alt="alegria-logo" id="loader-logo" height="150px">
+            <div class="loader d-flex align-items-center justify-content-center px-3 sec-font fs-1 my-2">
+                <p id="loader-l">L</p>
+                <p id="loader-o">o</p>
+                <p id="loader-a">a</p>
+                <p id="loader-d">d</p>
+                <p id="loader-i">i</p>
+                <p id="loader-n">n</p>
+                <p id="loader-g">g</p>
+            </div>
+        </div>
+    </div>
+
+
+    <body class="min-vh-100">
+        <nav class="navbar navbar-main navbar-expand-lg navbar-light p-1 position-relative stroke">
+            <div class="container-fluid">
+                <a class="p-0" href="../../index-1.htm">
+                    <img src="../../static/images/AlegriaLogo.png" alt="alegria logo" class="alegria-logo">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-white" width="32px" height="32px" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="ms-3 navbar-nav me-auto mt-1 mb-2 mb-lg-0 sec-font fw-bold gy-3">
+                        <li class="nav-item">
+                            <a href="../../index-1.htm" class='navbar_links'>Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Events</a>
+                            <ul class="dropdown-menu" style="background-color: #681b0aec !important;" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/informals.html">Informals</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/fine-arts.html">Fine Arts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/performing-arts.html">Performing
+                                        Arts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/gaming.html">Gaming</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/sports.html">Sports</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/literary-arts.html">Literary
+                                        Arts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/technical-events.html">Technical
+                                        Events</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/technical-workshop.html">Technical
+                                        Workshops</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/management.html">Management
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../../events/index.htm">All
+                                        Events
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style='color: #e8ff84;'>Merchandise</a>
+                            <ul class="dropdown-menu" style="background-color: #681b0aec !important;" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../Tshirts.html">Tshirts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="../Badges.html">Badges</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../../announcements.html?filter=None" class='navbar_links'>Announcements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../../index-1.htm#artists" class='navbar_links'>Artists</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                            <ul class="dropdown-menu border-0" style="background-color: #681b0aec;" aria-labelledby="dropdownMenuButton2">
+                                <li>
+                                    <a href="../../about-us.html" class="dropdown-item navbar_links">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="../../app-download.html" class='dropdown-item navbar_links'>
+                                        Alegria App 2022
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../../hackathon.html" class="dropdown-item navbar_links">Hackathon
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="../../polls.html" class="dropdown-item navbar_links">Polls</a>
+                                </li>
+                                <li>
+                                    <a href="../../user/quiz.html" class="dropdown-item navbar_links">Quiz</a>
+                                </li>
+                                <li>
+                                    <a href="https://pillaialegria.wordpress.com/" target="_blank" rel="noopener noreferrer" class="dropdown-item navbar_links">Blogs</a>
+                                </li>
+                                <li>
+                                    <a href="../../EBrochure2022.pdf" class="dropdown-item navbar_links">EBrochure
+                                        2022</a>
+                                </li>
+                                <li>
+                                    <a href="../../sponsors.html" class="dropdown-item navbar_links">Sponsors</a>
+                                </li>
+                                <li>
+                                    <a href="../../developers.html" class="dropdown-item navbar_links">Developers</a>
+                                </li>
+                                <li>
+                                    <a href="../../event-heads.html" class="dropdown-item navbar_links">Event Heads </a>
+                                </li>
+                                <li>
+                                    <a href="../../privacypolicy.html" class="dropdown-item navbar_links">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="../../publictermsofservice.html" class="dropdown-item navbar_links">Terms and
+                                        Conditions</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <button class="up-button">
+                        <a href="../../user-login.html" class="d-flex justify-content-center align-items-center rounded-3 text-red bg-white fs-7 px-4 py-2 me-2 main-font">
+                            <p class="my-0 me-2">
+                                Sign In
+                            </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewbox="0 0 24 24" stroke="currentColor" class="text-beige ms-2" width="24px" height="24px">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z"></path>
+                            </svg>
+                        </a>
+                    </button>
+                    
+
+                    
+
+                    
+                </div>
+            </div>
+        </nav>
+
+
+        
+
+<div class="w-100 min-vh-100 overflow-hidden sec-font bg-teal bg-cover">
+    <div class="row m-3">
+        <div class="col-lg-2 col-sm-3">
+            <a href="../Badges.html" type="button" class="go_back_btn text-dark py-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewbox="0 0 24 24" class="me-2" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                </svg> Go Back
+            </a>
+        </div>
+    </div>
+    <div class="row pt-2 m-2">
+        <div class="col-lg-4 col-sm-12 flex-column pt-2">
+            <img src="../../docs/securesc/rnt8q3al7peu1q5deqms10k66rtao6he/vqsbqicl67fnde5jdnbb4i81hkt1uou7/1649578200000/00733438911266130219/14747744803210622099Z/19DATxtT78BOn698wN4mOlSkGBBlvKu2S?export=view&amp;id=19DATxtT78BOn698wN4mOlSkGBBlvKu2S" class="rounded-3" alt="merchandise-image" style="width:90%">
+        </div>
+        <div class="col-lg-4 col-md-7 col-sm-12 flex-column section-border">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb fs-7 text-black">
+                    <li class="breadcrumb-item">
+                        <a href="../../index-1.htm" class="text-black">Home</a>
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page">
+                        <a class="text-black" href="../Badges.html">
+                            Badges
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item text-red main-font" aria-current="page">
+                        Dreamland Unicorn 
+                    </li>
+                </ol>
+            </nav>
+            <h1 class="text-red fs-3 main-font">
+                Dreamland Unicorn 
+            </h1>
+            <p class="sec-font text-black fs-7">
+                A unicorn dapping in style with dreamland in background badge.
+            </p>
+            <h2 class="text-red fs-2 main-font">
+                100 ₹
+            </h2>
+            <p class="text-black fs-6 main-font">
+                
+                <small>(In Stock)</small>
+                
+            </p>
+            <hr>
+            <form action="/user/addToCart/M08" method="post" class="row">
+                <div class="col-md-12">
+                    
+                    
+
+                    
+                    <button class="w-100 d-flex align-items-center justify-content-center border-0 bg-red text-teal my-3 fs-6 py-1 px-3 rounded-3 btncart" style="max-width: 12rem;" type="submit" disabled="">
+                        Sign In Required
+                    </button>
+                    
+
+                    <p class="sec-font text-black fs-7 mb-1 ">
+                        After Successful payment you need to collect this product from our campus because home delivery
+                        isn't supported.
+                    </p>
+                </div>
+            </form>
+            <hr>
+            <p class="sec-font text-black fs-7 mb-1 ">
+                Category: Badges
+            </p>
+            <p class="sec-font text-black fs-7 mb-1 ">
+                Code: M08
+            </p>
+        </div>
+        <div class="col g-4 my-1 mx-3 flex-column ">
+            <h4 class="main-font fs-5 ">
+                Similar products
+            </h4>
+             
+             
+            <div class="col my-3 ">
+                <a href="M09.html" class="d-flex flex-column justify-content-center py-2 rounded-3 main-bg" style="width: 90%;">
+                    <div class="d-flex justify-content-center overflow-hidden">
+                        <img src="../../docs/securesc/rnt8q3al7peu1q5deqms10k66rtao6he/v6i7819rnjjgqdcdiej9rdumdgqlmad5/1649578200000/00733438911266130219/14747744803210622099Z/1kSc43CKtAGBecw8j-3I8ysH-4zMLdXHK?export=view&amp;id=1kSc43CKtAGBecw8j-3I8ysH-4zMLdXHK" alt="merchandise-image" height="180px" width="60%" class="rounded-3 mb-1">
+                    </div>
+                    <h3 class="fs-6 text-red mt-2 mb-0 px-2 main-font text-center ">
+                        Alegria Dreamland
+                    </h3>
+                    <p class="text-black sec-font text-center fs-7 mb-1 ">
+                        Badges
+                    </p>
+                    <h3 class="text-black main-font text-center fs-6 ">
+                        80 ₹
+                    </h3>
+                </a>
+            </div>
+            
+             
+            <div class="col my-3 ">
+                <a href="M10.html" class="d-flex flex-column justify-content-center py-2 rounded-3 main-bg" style="width: 90%;">
+                    <div class="d-flex justify-content-center overflow-hidden">
+                        <img src="../../docs/securesc/rnt8q3al7peu1q5deqms10k66rtao6he/gchnofbb8kv8ri5kig39t850pvo55avo/1649578275000/00733438911266130219/14747744803210622099Z/1rS20CUVK7h_3D5lTliVmzYtLSTa68tze?export=view&amp;id=1rS20CUVK7h_3D5lTliVmzYtLSTa68tze" alt="merchandise-image" height="180px" width="60%" class="rounded-3 mb-1">
+                    </div>
+                    <h3 class="fs-6 text-red mt-2 mb-0 px-2 main-font text-center ">
+                        Alegrian Forever
+                    </h3>
+                    <p class="text-black sec-font text-center fs-7 mb-1 ">
+                        Badges
+                    </p>
+                    <h3 class="text-black main-font text-center fs-6 ">
+                        60 ₹
+                    </h3>
+                </a>
+            </div>
+            
+             
+            <div class="col my-3 ">
+                <a href="M11.html" class="d-flex flex-column justify-content-center py-2 rounded-3 main-bg" style="width: 90%;">
+                    <div class="d-flex justify-content-center overflow-hidden">
+                        <img src="https://drive.google.com/uc?export=view&id=17YKCZUtBGxrZ8-krzfLLrNIpu6DvwxKU" alt="merchandise-image" height="180px" width="60%" class="rounded-3 mb-1">
+                    </div>
+                    <h3 class="fs-6 text-red mt-2 mb-0 px-2 main-font text-center ">
+                        Alegria 2018
+                    </h3>
+                    <p class="text-black sec-font text-center fs-7 mb-1 ">
+                        Badges
+                    </p>
+                    <h3 class="text-black main-font text-center fs-6 ">
+                        70 ₹
+                    </h3>
+                </a>
+            </div>
+            
+             
+            <div class="col my-3 ">
+                <a href="M12.html" class="d-flex flex-column justify-content-center py-2 rounded-3 main-bg" style="width: 90%;">
+                    <div class="d-flex justify-content-center overflow-hidden">
+                        <img src="https://drive.google.com/uc?export=view&id=1FGZLhel3UH4lBnY4YrSU9f5DyOMlQkys" alt="merchandise-image" height="180px" width="60%" class="rounded-3 mb-1">
+                    </div>
+                    <h3 class="fs-6 text-red mt-2 mb-0 px-2 main-font text-center ">
+                        Committee Badge
+                    </h3>
+                    <p class="text-black sec-font text-center fs-7 mb-1 ">
+                        Badges
+                    </p>
+                    <h3 class="text-black main-font text-center fs-6 ">
+                        None ₹
+                    </h3>
+                </a>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+
+
+        <!-- footer -->
+        <footer class="d-flex flex-column px-2 overflow-hidden u-text-beige" style="background-color: #272626;">
+            <div class="row d-flex justify-content-center g-4 p-4 pt-5">
+                <div class="col-lg-3 col-sm-6">
+                    <p class="footer_link">Here's how you can reach us</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.6693193422207!2d73.12548141390256!3d18.990206059600766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e866de88667f%3A0xc1c5d5badc610f5f!2sPillai%20College%20of%20Engineering%2C%20New%20Panvel!5e0!3m2!1sen!2sin!4v1639657181713!5m2!1sen!2sin" width="220" height="150" style="border:0;" allowfullscreen="true" loading="lazy" class="rounded-3"></iframe>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <li>
+                        <a href="../../events/fine-arts.html" class="footer_link mb-1">
+                            Fine Arts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/gaming.html" class="footer_link mb-1">
+                            Gaming
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/informals.html" class="footer_link mb-1">
+                            Informals
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/literary-arts.html" class="footer_link mb-1">
+                            Literary Arts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/management.html" class="footer_link mb-1">
+                            Management
+                        </a>
+                    </li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <li>
+                        <a href="../../event/technical-events/index.htm" class="footer_link mb-1">
+                            Technical Events
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/technical-workshop.html" class="footer_link mb-1">
+                            Technical Workshops
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/performing-arts.html" class="footer_link mb-1">
+                            Performing Arts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/sports.html" class="footer_link mb-1">
+                            Sports
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../events/special-events.html" class="footer_link mb-1">
+                            Special Events
+                        </a>
+                    </li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <li>
+                        <a href="../../index-1.htm" class="footer_link mb-1">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../user-login.html" class="footer_link mb-1">
+                            Login
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../hackathon.html" class="footer_link mb-1">
+                            Hackathon
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../Tshirts.html" class="footer_link mb-1">
+                            Merchandise Tshirts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../../developers.html" class="footer_link mb-1">
+                            Developers
+                        </a>
+                    </li>
+                    <li class="my-1">
+                        <a href="https://play.google.com/store/apps/details?id=com.mes.alegria" target="_blank" rel="noopener noreferrer" class="px-3 py-1 d-flex align-items-center rounded-3" style="background-color: black;width: 60%;height: 60%;">
+                            <img src="../../static/images/icons/playstore.png" alt="playstore icon" class="me-1">
+                            <p class="sec-font mb-0" style="font-size: 0.7rem;">
+                                <span>
+                                    Get It On
+                                </span>
+                                <br>
+                                <span>
+                                    Google Play
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                </div>
+            </div>
+            <div class="row g-2 py-2" style="background-color: #242121;">
+                <div class="col-md-4 col-sm-12">
+                    <p class="footer_link mb-1 text-center">Copyright 2022 Alegria</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="https://www.instagram.com/pillaisalegria/" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                            <i class="fab fa-instagram fs-5"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCfqP3NEaaXPsgHn8QX3qilw" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                            <i class="fab fa-youtube fs-5"></i>
+                        </a>
+                        <a href="https://www.facebook.com/pillaisalegria" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                            <i class="fab fa-facebook-square fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <p class="footer_link mb-1 text-center">Powered by Alegria</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+    
+
+</body></html>

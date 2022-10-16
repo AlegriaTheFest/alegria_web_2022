@@ -1,0 +1,683 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<script src="static/js/loading.js"></script>
+
+
+<style>
+    .contact_card {
+        border: 5px solid var(--navbar);
+        border-radius: 20px;
+        height: 15rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .contact_card-img {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    @media screen and (max-width:600px) {
+        .contact_card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            height: auto;
+            width: 100%;
+        }
+
+        .contact_card-img {
+            width: 5rem;
+            height: 5rem;
+        }
+    }
+</style>
+ 
+
+    <!-- bootstrap -->
+    <!-- css -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="static/css/user.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/Buttons.css">
+
+    <link rel="shortcut icon" href="static/images/favicon.ico" type="image/x-icon">
+
+    <!-- js -->
+    <script defer="" src="static/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="gtag/js?id=G-1NGQRMP43J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-1NGQRMP43J');
+    </script>
+
+    <title>
+Alegria 2022 | Event Heads Contact
+</title>
+</head>
+
+
+
+<body class="loader-body">
+    <div class="loading-bg">
+    </div>
+    <div class="loader-div d-flex flex-column justify-content-center align-items-center">
+        <!-- <div class="loader d-flex flex-column align-items-center">
+            <video width="400" height="500" loop autoplay>
+                <source src="../static/files/loader.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+        </div> -->
+        <div class="d-flex flex-column align-items-center">
+            <img src="static/images/AlegriaLogo.png" alt="alegria-logo" id="loader-logo" height="150px">
+            <div class="loader d-flex align-items-center justify-content-center px-3 sec-font fs-1 my-2">
+                <p id="loader-l">L</p>
+                <p id="loader-o">o</p>
+                <p id="loader-a">a</p>
+                <p id="loader-d">d</p>
+                <p id="loader-i">i</p>
+                <p id="loader-n">n</p>
+                <p id="loader-g">g</p>
+            </div>
+        </div>
+    </div>
+
+
+    <body class="min-vh-100">
+        <nav class="navbar navbar-main navbar-expand-lg navbar-light p-1 position-relative stroke">
+            <div class="container-fluid">
+                <a class="p-0" href="index-1.htm">
+                    <img src="static/images/AlegriaLogo.png" alt="alegria logo" class="alegria-logo">
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-white" width="32px" height="32px" fill="none" viewbox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="ms-3 navbar-nav me-auto mt-1 mb-2 mb-lg-0 sec-font fw-bold gy-3">
+                        <li class="nav-item">
+                            <a href="index-1.htm" class='navbar_links'>Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Events</a>
+                            <ul class="dropdown-menu" style="background-color: #681b0aec !important;" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/informals.html">Informals</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/fine-arts.html">Fine Arts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/performing-arts.html">Performing
+                                        Arts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/gaming.html">Gaming</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/sports.html">Sports</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/literary-arts.html">Literary
+                                        Arts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/technical-events.html">Technical
+                                        Events</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/technical-workshop.html">Technical
+                                        Workshops</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/management.html">Management
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="events/index.htm">All
+                                        Events
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Merchandise</a>
+                            <ul class="dropdown-menu" style="background-color: #681b0aec !important;" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="merchandise/Tshirts.html">Tshirts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item navbar_links" href="merchandise/Badges.html">Badges</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="announcements.html?filter=None" class='navbar_links'>Announcements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index-1.htm#artists" class='navbar_links'>Artists</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class='navbar_links dropdown-toggle cursor-pointer' id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                            <ul class="dropdown-menu border-0" style="background-color: #681b0aec;" aria-labelledby="dropdownMenuButton2">
+                                <li>
+                                    <a href="about-us.html" class="dropdown-item navbar_links">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="app-download.html" class='dropdown-item navbar_links'>
+                                        Alegria App 2022
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="hackathon.html" class="dropdown-item navbar_links">Hackathon
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="polls.html" class="dropdown-item navbar_links">Polls</a>
+                                </li>
+                                <li>
+                                    <a href="user/quiz.html" class="dropdown-item navbar_links">Quiz</a>
+                                </li>
+                                <li>
+                                    <a href="https://pillaialegria.wordpress.com/" target="_blank" rel="noopener noreferrer" class="dropdown-item navbar_links">Blogs</a>
+                                </li>
+                                <li>
+                                    <a href="EBrochure2022.pdf" class="dropdown-item navbar_links">EBrochure
+                                        2022</a>
+                                </li>
+                                <li>
+                                    <a href="sponsors.html" class="dropdown-item navbar_links">Sponsors</a>
+                                </li>
+                                <li>
+                                    <a href="developers.html" class="dropdown-item navbar_links">Developers</a>
+                                </li>
+                                <li>
+                                    <a href="event-heads.html" class="dropdown-item navbar_links">Event Heads </a>
+                                </li>
+                                <li>
+                                    <a href="privacypolicy.html" class="dropdown-item navbar_links">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="publictermsofservice.html" class="dropdown-item navbar_links">Terms and
+                                        Conditions</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <button class="up-button">
+                        <a href="user-login.html" class="d-flex justify-content-center align-items-center rounded-3 text-red bg-white fs-7 px-4 py-2 me-2 main-font">
+                            <p class="my-0 me-2">
+                                Sign In
+                            </p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewbox="0 0 24 24" stroke="currentColor" class="text-beige ms-2" width="24px" height="24px">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 11V7a4 4 0 118 0m-4 8v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2z"></path>
+                            </svg>
+                        </a>
+                    </button>
+                    
+
+                    
+
+                    
+                </div>
+            </div>
+        </nav>
+
+
+        
+
+<div class="container-fluid p-3 min-vh-100 w-100 text-center bg-beige bg-cover overflow-hidden">
+    <h1 class="text-red main-font fs-2 py-2">Event Heads</h1>
+    <!-- row1 -->
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-2 g-5 p-4">
+        
+        <div class="col-md-6 col-sm-12">
+            <div class="px-4 contact_card p-3 shadow cover-color gap-2">
+                <div class="d-flex flex-column align-items-center">
+                    <h4 class=" main-font text-red fs-4">
+                        Technical
+                    </h4>
+                    <img src="static/images/icons/Category%20Icons/Tech.png" class="contact_card-img" alt="logo">
+                </div>
+                <div class="d-flex flex-column">
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Athul Tulasidasan
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+917887494095" class="text-red">+91
+                            7887494095</a>
+                    </p>
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Amit Naik
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+918779624030" class="text-red">+91
+                            8779624030</a>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-sm-12">
+            <div class="px-4 contact_card p-3 shadow cover-color gap-2">
+                <div class="d-flex flex-column align-items-center">
+                    <h4 class=" main-font text-red fs-4">
+                        Management
+                    </h4>
+                    <img src="static/images/icons/Category%20Icons/management.png" class="contact_card-img" alt="logo">
+                </div>
+                <div class="d-flex flex-column">
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Janesh Shetty
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+917887494095" class="text-red">+91
+                            7887494095</a>
+                    </p>
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Sreelakshmi Priyan
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+91810841100" class="text-red">+91
+                            810841100</a>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- row2 -->
+    <div class="row row-cols-lg-2 row-cols-sm-1 g-5 p-4">
+        
+        <div class="col-md-6 col-sm-12">
+            <div class="px-4 contact_card p-3 shadow main-bg gap-2">
+                <div class="d-flex flex-column align-items-center">
+                    <h4 class=" main-font text-red fs-4">
+                        Fine Arts
+                    </h4>
+                    <img src="static/images/icons/Category%20Icons/Fine%20Arts.png" class="contact_card-img" alt="logo">
+                </div>
+                <div class="d-flex flex-column">
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Teejal Singh
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+919768000278" class="text-red">+91
+                            9768000278</a>
+                    </p>
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Tushar Surve
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+918268182173" class="text-red">+91
+                            8268182173</a>
+                    </p>
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Avanti Salwatkar
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+919689655699" class="text-red">+91
+                            9689655699</a>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-sm-12">
+            <div class="px-4 contact_card p-3 shadow main-bg gap-2">
+                <div class="d-flex flex-column align-items-center">
+                    <h4 class=" main-font text-red fs-4">
+                        Performing
+                    </h4>
+                    <img src="static/images/icons/Category%20Icons/Performing%20Arts.png" class="contact_card-img" alt="logo">
+                </div>
+                <div class="d-flex flex-column">
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Yog Agarwal
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+919987071544" class="text-red">+91
+                            9987071544</a>
+                    </p>
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Dishad Koli
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+917021555531" class="text-red">+91
+                            7021555531</a>
+                    </p>
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Parth Balsaraf
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+919869541542" class="text-red">+91
+                            9869541542</a>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- row3 -->
+    <div class="row row-cols-lg-2 row-cols-sm-1 g-5 p-4">
+        
+        <div class="col-md-6 col-sm-12">
+            <div class="px-4 contact_card p-3 shadow main-bg gap-2">
+                <div class="d-flex flex-column align-items-center">
+                    <h4 class=" main-font text-red fs-4">
+                        Literary
+                    </h4>
+                    <img src="static/images/icons/Category%20Icons/Literary%20Arts.png" class="contact_card-img" alt="logo">
+                </div>
+                <div class="d-flex flex-column">
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Paree Gadhe
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+919309871554" class="text-red">+91
+                            9309871554</a>
+                    </p>
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Emaan Qureshi
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+919820409717" class="text-red">+91
+                            9820409717</a>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-sm-12">
+            <div class="px-4 contact_card p-3 shadow main-bg gap-2">
+                <div class="d-flex flex-column align-items-center">
+                    <h4 class=" main-font text-red fs-4">
+                        Informals
+                    </h4>
+                    <img src="static/images/icons/Category%20Icons/Informals.png" class="contact_card-img" alt="logo">
+                </div>
+                <div class="d-flex flex-column">
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Nupur Kelkar
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+919082683799" class="text-red">+91
+                            9082683799</a>
+                    </p>
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Sejal Hadkar
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+919137516163" class="text-red">+91
+                            9137516163</a>
+                    </p>
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Mehroz Chiwan
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+917977723755" class="text-red">+91
+                            7977723755</a>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- row 4 -->
+    <div class="row row-cols-lg-2 row-cols-sm-1 g-5 gx-4 p-4">
+        
+        <div class="col-md-6 col-sm-12">
+            <div class="px-4 contact_card p-3 shadow main-bg gap-2">
+                <div class="d-flex flex-column align-items-center">
+                    <h4 class=" main-font text-red fs-4">
+                        Gaming
+                    </h4>
+                    <img src="static/images/icons/Category%20Icons/Gaming.png" class="contact_card-img" alt="logo">
+                </div>
+                <div class="d-flex flex-column">
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Atharva Kale
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+919834634592" class="text-red">+91
+                            9834634592</a>
+                    </p>
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Mihir Deshmukh
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+919768378344" class="text-red">+91
+                            9768378344</a>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-sm-12">
+            <div class="px-4 contact_card p-3 shadow main-bg gap-2">
+                <div class="d-flex flex-column align-items-center">
+                    <h4 class=" main-font text-red fs-4">
+                        Sports
+                    </h4>
+                    <img src="static/images/icons/Category%20Icons/Sports.png" class="contact_card-img" alt="logo">
+                </div>
+                <div class="d-flex flex-column">
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Soham Bhujbal
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+919860377037" class="text-red">+91
+                            9860377037</a>
+                    </p>
+                    
+                    <p class="mb-1 main-font text-black fs-6">
+                        Faraz Raza
+                    </p>
+                    <p class="d-flex align-items-center mb-1 main-font text-red fs-6">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+917900019313" class="text-red">+91
+                            7900019313</a>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+        <!-- footer -->
+        <footer class="d-flex flex-column px-2 overflow-hidden u-text-beige" style="background-color: #272626;">
+            <div class="row d-flex justify-content-center g-4 p-4 pt-5">
+                <div class="col-lg-3 col-sm-6">
+                    <p class="footer_link">Here's how you can reach us</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.6693193422207!2d73.12548141390256!3d18.990206059600766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e866de88667f%3A0xc1c5d5badc610f5f!2sPillai%20College%20of%20Engineering%2C%20New%20Panvel!5e0!3m2!1sen!2sin!4v1639657181713!5m2!1sen!2sin" width="220" height="150" style="border:0;" allowfullscreen="true" loading="lazy" class="rounded-3"></iframe>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <li>
+                        <a href="events/fine-arts.html" class="footer_link mb-1">
+                            Fine Arts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/gaming.html" class="footer_link mb-1">
+                            Gaming
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/informals.html" class="footer_link mb-1">
+                            Informals
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/literary-arts.html" class="footer_link mb-1">
+                            Literary Arts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/management.html" class="footer_link mb-1">
+                            Management
+                        </a>
+                    </li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <li>
+                        <a href="event/technical-events/index.htm" class="footer_link mb-1">
+                            Technical Events
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/technical-workshop.html" class="footer_link mb-1">
+                            Technical Workshops
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/performing-arts.html" class="footer_link mb-1">
+                            Performing Arts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/sports.html" class="footer_link mb-1">
+                            Sports
+                        </a>
+                    </li>
+                    <li>
+                        <a href="events/special-events.html" class="footer_link mb-1">
+                            Special Events
+                        </a>
+                    </li>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <li>
+                        <a href="index-1.htm" class="footer_link mb-1">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="user-login.html" class="footer_link mb-1">
+                            Login
+                        </a>
+                    </li>
+                    <li>
+                        <a href="hackathon.html" class="footer_link mb-1">
+                            Hackathon
+                        </a>
+                    </li>
+                    <li>
+                        <a href="merchandise/Tshirts.html" class="footer_link mb-1">
+                            Merchandise Tshirts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="developers.html" class="footer_link mb-1">
+                            Developers
+                        </a>
+                    </li>
+                    <li class="my-1">
+                        <a href="https://play.google.com/store/apps/details?id=com.mes.alegria" target="_blank" rel="noopener noreferrer" class="px-3 py-1 d-flex align-items-center rounded-3" style="background-color: black;width: 60%;height: 60%;">
+                            <img src="static/images/icons/playstore.png" alt="playstore icon" class="me-1">
+                            <p class="sec-font mb-0" style="font-size: 0.7rem;">
+                                <span>
+                                    Get It On
+                                </span>
+                                <br>
+                                <span>
+                                    Google Play
+                                </span>
+                            </p>
+                        </a>
+                    </li>
+                </div>
+            </div>
+            <div class="row g-2 py-2" style="background-color: #242121;">
+                <div class="col-md-4 col-sm-12">
+                    <p class="footer_link mb-1 text-center">Copyright 2022 Alegria</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="https://www.instagram.com/pillaisalegria/" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                            <i class="fab fa-instagram fs-5"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCfqP3NEaaXPsgHn8QX3qilw" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                            <i class="fab fa-youtube fs-5"></i>
+                        </a>
+                        <a href="https://www.facebook.com/pillaisalegria" target="_blank" rel="noopener noreferrer" class="footer_link mb-1 px-2 social-icons">
+                            <i class="fab fa-facebook-square fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <p class="footer_link mb-1 text-center">Powered by Alegria</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+    
+
+</body></html>
